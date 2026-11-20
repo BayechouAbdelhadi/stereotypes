@@ -21,11 +21,10 @@ Series name: "Kill the Stereotype". Every reel follows this guide so the series 
 
 | Block | Time | Content |
 |-------|------|---------|
-| Intro (common) | 0-4.6 s | Spoken and on screen: "Tuons le stéréotype." Very slow (`length_scale` 1.4), gold rule draws in. Same every reel. |
 | Hook | 3-10 s | The stereotype quoted on screen, then its animated typography. |
 | Proof | 10-40 s | 2 to 4 evidence beats. Each shows the data or fact plus a small source tag. |
 | Verdict | 40-48 s | Short, calm statement. Verdict stamp (FAUX / VRAI / NUANCÉ) once. |
-| Outro (common) | last 6-8 s | References card (section 6), then series sign-off line and logo. |
+| Outro (common, spoken) | last 9 s | Slow, on screen and spoken: « Les préjugés s'effacent, quand les faits prennent place. » then « Ensemble, tuons les stéréotypes. » Gold rule draws in. Same every reel (`length_scale` 1.2, natural noise settings). |
 
 The intro and outro are built once as shared components and reused. Copy them from `reels/_template/project/`, do not redesign per reel.
 
@@ -68,13 +67,13 @@ The intro and outro are built once as shared components and reused. Copy them fr
 
 ## 8. Voice and audio
 
-- Same voice across a language: FR `fr_FR-siwis-medium` (female, Piper), `length_scale` 1.05, calm and peaceful: `noise_scale` 0.45, `noise_w` 0.55, `sentence_silence` 0.5 (steadier, less animated). Intro line even slower (1.4). Falling tone on the verdict.
+- Same voice across a language: FR `fr_FR-siwis-medium` (female, Piper), `length_scale` 1.05, calm and peaceful: `noise_scale` 0.45, `noise_w` 0.55, `sentence_silence` 0.5 (steadier, less animated). Outro lines slower (1.2). Falling tone on the verdict.
 - Music: single quiet ambient bed, same track family, -22 dB under voice. No drops.
-- Intro tone and verdict impact are the only effects. Both soft.
+- Verdict impact are the only effects. Both soft.
 
 ## 9. Pre-render checklist
 
-1. Intro and outro are the shared components, unchanged.
+1. The outro is the shared one, unchanged.
 2. Every on-screen fact has a source in `source.json` and appears on the references card.
 3. No people or characters.
 4. Subtitles small, inside safe area.

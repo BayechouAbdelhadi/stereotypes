@@ -26,3 +26,4 @@ Stage: v2 draft rendered (style guide), awaiting review
 
 - 2026-11-20: v2 (tom voice, character, dissolves) rejected by user. v3 = v1 animation restored, voice fr_FR-siwis-medium at length_scale 1.05 (slightly slower), timeline retimed, no character. Draft 34.6 s at 540x960.
 - 2026-11-20: v4: spoken intro "Tuons le stéréotype." (length_scale 1.4), calmer narration (noise_scale 0.45, noise_w 0.55, silence 0.5), timeline shifted by 4.6 s. Draft 34.8 s at 540x960.
+- 2026-11-20: intro removed; spoken outro added at the end (rhyming line + "Ensemble, tuons les stéréotypes."). Draft 43.6 s at 540x960.

@@ -1,0 +1,13 @@
+{
+ "dataset": "/home/abdelhadi/Documents/steriotypes/data/steriotypes.db",
+ "stereotype_id": 734,
+ "group": "France",
+ "claim": "Les Français ne se lavent pas.",
+ "category": "hygiène",
+ "verdict": "faux",
+ "rebuttal": "Les enquêtes d'hygiène actuelles ne montrent pas de différence notable entre la France et ses voisins européens. L'idée d'un peuple sale repose sur des anecdotes d'époque et sur la comparaison avec des pays où certaines habitudes diffèrent, comme la fréquence de la douche.",
+ "history": "Du XVIe au XVIIIe siècle, la médecine européenne pensait que l'eau chaude ouvrait les pores et favorisait les épidémies : on privilégiait le linge propre et le parfum. Ces pratiques, communes à l'Europe, ont été associées aux Français par les récits de voyageurs étrangers. L'hygiène par l'eau s'est généralisée au XIXe et XXe siècles, avec le tout-à-l'égout et l'eau courante dans les logements.",
+ "sources": [
+  "Georges Vigarello, Le Propre et le sale : l'hygiène du corps depuis le Moyen Âge, Seuil, 1985."
+ ]
+}

@@ -6,16 +6,24 @@
   "sentence_silence": 0.5,
   "lines": [
     {
-      "id": "intro",
-      "text": "Tuons le stéréotype.",
+      "id": "s1",
+      "text": ""
+    },
+    {
+      "id": "outro1",
+      "text": "Les préjugés s'effacent, quand les faits prennent place.",
       "length_scale": 1.2,
       "noise_scale": 0.667,
       "noise_w": 0.9,
       "sentence_silence": 0.4
     },
     {
-      "id": "s1",
-      "text": ""
+      "id": "outro2",
+      "text": "Ensemble, tuons les stéréotypes.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
     }
   ]
 }

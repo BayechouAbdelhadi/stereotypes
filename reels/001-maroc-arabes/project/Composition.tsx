@@ -23,8 +23,9 @@ export interface SceneProps {}
 
 const FPS = 30;
 const S = (sec: number) => Math.round(sec * FPS);
-const OFF = 4.6; // spoken intro
-const TOTAL = 34.7;
+const OFF = 0;
+const END = 34.1; // end of the last scene; spoken outro follows
+const TOTAL = END + 9.4;
 
 const INK = "#0A0A0C";
 const BONE = "#F4F1EA";
@@ -42,12 +43,11 @@ const W = {
   s4a: [13.2 + OFF, 16.2 + OFF],
   s4b: [16.2 + OFF, 21.2 + OFF],
   s5: [21.2 + OFF, 26.9 + OFF],
-  s6: [26.9 + OFF, TOTAL],
+  s6: [26.9 + OFF, END],
 } as const;
 
 // Narration clips (global start seconds) — durations measured from the Piper output.
 const VOICE: { file: string; at: number }[] = [
-  { file: "intro", at: 0.9 },
   { file: "s1a", at: 0.3 + OFF },
   { file: "s1b", at: 2.4 + OFF },
   { file: "s2", at: 3.7 + OFF },
@@ -57,6 +57,8 @@ const VOICE: { file: string; at: number }[] = [
   { file: "s5", at: 21.5 + OFF },
   { file: "s6a", at: 27.2 + OFF },
   { file: "s6b", at: 29.85 + OFF },
+  { file: "outro1", at: END + 0.8 },
+  { file: "outro2", at: END + 4.9 },
 ];
 
 const ease = (f: number, a: number, b: number) =>
@@ -108,17 +110,20 @@ const Background: React.FC = () => (
 );
 
 
-// ---------------------------------------------------------------- Intro (spoken, slow)
-const Intro: React.FC = () => {
+// ---------------------------------------------------------------- Outro (spoken, slow, same in every reel)
+const Outro: React.FC = () => {
   const f = useCurrentFrame();
-  const t = ease(f, S(0.4), S(1.8));
-  const rule = ease(f, S(1.2), S(3.6));
-  const out = 1 - ease(f, S(OFF) - 14, S(OFF));
+  const a = ease(f, S(0.3), S(1.3));
+  const dim = 1 - 0.55 * ease(f, S(4.4), S(5.0));
+  const b = ease(f, S(4.7), S(5.9));
+  const rule = ease(f, S(6.2), S(8.0));
   return (
-    <Frame style={{ opacity: out }}>
-      <div style={{ opacity: t, transform: `translateY(${(1 - t) * 24}px)`, textAlign: "center" }}>
-        <div style={{ fontFamily: ANTON, fontSize: 170, lineHeight: 1.05, color: BONE, letterSpacing: "0.02em" }}>TUONS LE</div>
-        <div style={{ fontFamily: ANTON, fontSize: 170, lineHeight: 1.05, color: SAND, letterSpacing: "0.02em" }}>STÉRÉOTYPE</div>
+    <Frame style={{ alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+      <div style={{ opacity: a * dim, transform: `translateY(${(1 - a) * 20}px)`, textAlign: "center", fontFamily: ANTON, fontSize: 104, lineHeight: 1.12, color: BONE }}>
+        LES PRÉJUGÉS<br />S'EFFACENT,<br />QUAND LES <span style={{ color: SAND }}>FAITS</span><br />PRENNENT PLACE.
+      </div>
+      <div style={{ opacity: b, transform: `translateY(${(1 - b) * 30}px)`, textAlign: "center", fontFamily: ANTON, fontSize: 124, lineHeight: 1.08, color: SAND, marginTop: 90 }}>
+        ENSEMBLE,<br />TUONS LES<br />STÉRÉOTYPES.
       </div>
       <div style={{ height: 6, width: 620 * rule, background: SAND, marginTop: 50 }} />
     </Frame>
@@ -625,7 +630,7 @@ export const Scene: React.FC<SceneProps> = () => {
     <AbsoluteFill style={{ background: INK }}>
       <Background />
       {/* each scene sees local frame 0 at its start */}
-      <Sequence from={0} durationInFrames={S(OFF)}><Intro /></Sequence>
+      <Sequence from={S(END)} durationInFrames={S(9.4)}><Outro /></Sequence>
       <Sequence from={S(W.s1[0])} durationInFrames={S(W.s1[1] - W.s1[0])}><Scene1 /></Sequence>
       <Sequence from={S(W.s2[0])} durationInFrames={S(W.s2[1] - W.s2[0])}><Scene2 /></Sequence>
       <Sequence from={S(W.s3[0])} durationInFrames={S(W.s3[1] - W.s3[0])}><Scene3 /></Sequence>

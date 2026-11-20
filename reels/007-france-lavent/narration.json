@@ -1,0 +1,61 @@
+{
+  "voice": "fr_FR-siwis-medium",
+  "length_scale": 1.05,
+  "noise_scale": 0.45,
+  "noise_w": 0.55,
+  "sentence_silence": 0.5,
+  "lines": [
+    {
+      "id": "s1a",
+      "text": "Les Français ne se lavent pas ?"
+    },
+    {
+      "id": "s1b",
+      "text": "Faux."
+    },
+    {
+      "id": "s2",
+      "text": "Les enquêtes d'hygiène actuelles ne montrent pas de différence notable entre la France et ses voisins européens."
+    },
+    {
+      "id": "s3",
+      "text": "Du seizième au dix-huitième siècle, la médecine européenne pensait que l'eau chaude ouvrait les pores et favorisait les épidémies."
+    },
+    {
+      "id": "s4",
+      "text": "On privilégiait donc le linge propre et le parfum."
+    },
+    {
+      "id": "s5",
+      "text": "Ces pratiques étaient communes à toute l'Europe. Mais les récits de voyageurs étrangers les ont associées aux Français."
+    },
+    {
+      "id": "s6",
+      "text": "L'eau courante et le tout-à-l'égout se sont généralisés au dix-neuvième et au vingtième siècle."
+    },
+    {
+      "id": "s7a",
+      "text": "Les Français se lavent."
+    },
+    {
+      "id": "s7b",
+      "text": "Comme leurs voisins."
+    },
+    {
+      "id": "outro1",
+      "text": "Les préjugés s'effacent, quand les faits prennent place.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "outro2",
+      "text": "Ensemble, tuons les stéréotypes.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    }
+  ]
+}

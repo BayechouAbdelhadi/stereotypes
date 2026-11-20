@@ -13,3 +13,4 @@ Stages: idea -> plan approved -> script -> narration -> render -> review -> publ
 - Production runs in the VM (Ubuntu Server, `abdel@192.168.122.142`), project in `~/OpenMontage`, venv `.venv`, Node 22.23.5 in `~/.local/node`.
 - Local-only: no API keys set in `.env`. Free tools only (Remotion, HyperFrames, ffmpeg, Piper).
 - This host folder only tracks progress. Repo files were removed on purpose; `.git` is kept.
+| 007 | Les Français ne se lavent pas ? | DB 734 + Vigarello 1985 | 9:16 | Piper fr_FR-siwis-medium | render (draft) | 2026-11-20 |
