@@ -13,7 +13,7 @@ This folder tracks the reels and holds the scripts that drive the production VM
 - `reels/STYLE-GUIDE.md` - series rules every reel must follow (pace, intro/outro, character zoom, subtitles, references, palette)
 - `reels/TRACKER.md` - one row per reel and its stage
 - `reels/NNN-slug/` - one folder per reel:
-  `status.md`, `script.md`, `art-direction.md`, `source.json`, `narration.json`,
+  `status.md`, `script.md`, `description.md` (caption, hashtags, keywords), `art-direction.md`, `source.json`, `narration.json`,
   `reel.conf`, `project/` (Remotion sources), `renders/` (MP4, gitignored), `snapshots/`
 
 ## Typical flow

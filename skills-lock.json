@@ -1,0 +1,194 @@
+{
+  "version": 2,
+  "skills": {
+    "agent-interview": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/agent-interview/SKILL.md",
+      "computedHash": "2ea6fa518b8b15ac6b7dd226ac60370ae61ae65a2e721c96989392fbf6477a58"
+    },
+    "audio-acquisition": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/audio-acquisition/SKILL.md",
+      "computedHash": "6bdfeb6a082448d48daf1618a482310b8fee98a90506acf212eef1ef454d2912"
+    },
+    "brand-kit": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/brand-kit/SKILL.md",
+      "computedHash": "52ceee01212ebe005647535ab29878e9a0c96de92df4fda62e777a7df1014638"
+    },
+    "content-autopsy": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/content-autopsy/SKILL.md",
+      "computedHash": "63506e72420cd399112447bc89e9c52b7059e270c728f94306fb012936a30924"
+    },
+    "edit-handoff": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/edit-handoff/SKILL.md",
+      "computedHash": "33ca7717e2f80a99ed6479fb6524b27d6505a9e6c26e1366c0b0449ace3a131f"
+    },
+    "editor-beat-sync": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-beat-sync/SKILL.md",
+      "computedHash": "e1f2266ce6f1e8086c3e4a82cdeb1934e151ff22715adf4d81a635a79a0d28f0"
+    },
+    "editor-camera-directing": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-camera-directing/SKILL.md",
+      "computedHash": "9aaf76c6688cc9e209a0c3a1b04ab7de5cef233d79667d12762a7c74b20a80d5"
+    },
+    "editor-captions": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-captions/SKILL.md",
+      "computedHash": "09dbc20dc31ff209ce2366b19fa5da0968dc49aa07aa2e6048935407ba4a0d1b"
+    },
+    "editor-library-fx": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-library-fx/SKILL.md",
+      "computedHash": "c7ec60b5af12780b050389df8d6f8d407d2e29d37405cb34e6dbac1733ffd08b"
+    },
+    "editor-looks": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-looks/SKILL.md",
+      "computedHash": "da57ea5a177ebbf927380be8d62dc9db2ce4ddaf8894fd6e8537fca5fdc6d86a"
+    },
+    "editor-motion-graphics": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-motion-graphics/SKILL.md",
+      "computedHash": "4fd24c487c7d237677aa7d57396ae4045ee1e6a0ca987eebcd3cb67417a33aed"
+    },
+    "editor-plan-and-check": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-plan-and-check/SKILL.md",
+      "computedHash": "fd3bc8159e116255e270b26cb5571d32f0577972c96ae74d8b018ed3dd1b9b32"
+    },
+    "editor-sfx-sparse": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-sfx-sparse/SKILL.md",
+      "computedHash": "40710263116ae938903bc948b4e53b1b1910f04b1e9b1ba4f8e2f976ccde4741"
+    },
+    "editor-soundtrack": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-soundtrack/SKILL.md",
+      "computedHash": "a8f6398017400095ee0372758fe00b4a721fdf32802dd0f4f755babae54b1d33"
+    },
+    "editor-transitions": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-transitions/SKILL.md",
+      "computedHash": "3ad6931906af370db71edfbc008a51527962fbee738e0ce5e3dfe152d39b5ec3"
+    },
+    "editor-versions": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/editor-versions/SKILL.md",
+      "computedHash": "c7abf3a74b1000dbebc3aa38c5825a43dbcd46a45f9861fdbbf24415df72c907"
+    },
+    "hook-anatomy": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/hook-anatomy/SKILL.md",
+      "computedHash": "ddb923b01d64f13cc1d2cd94a9f45e7e63b8d7132923fb00ff8ded539e422bc7"
+    },
+    "media-acquisition": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/media-acquisition/SKILL.md",
+      "computedHash": "be48486cdaa69ed0094555b899f7f9d0b0fe76cebf23959a2ec7187ee9415e92"
+    },
+    "platform-fluency": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/platform-fluency/SKILL.md",
+      "computedHash": "62b9061c1f2183e1ad10843412d04db2b9293786ccde63ac52daf61a3c06f4d3"
+    },
+    "read-the-room": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/read-the-room/SKILL.md",
+      "computedHash": "14e49353a927a4e6cb423400e58661d5cd8806e1261170a120091ec639f34a30"
+    },
+    "repurpose-engine": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/repurpose-engine/SKILL.md",
+      "computedHash": "42061027b98df5d15c16156cfc7d2a01cb91bbd60a70809476047a91051c5155"
+    },
+    "studio-setup": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/studio-setup/SKILL.md",
+      "computedHash": "e32e906ba6f6a5ea83267ae5fa62aef31d9b06b3e81b461e8fb41fc675df9811"
+    },
+    "subject-compositing": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/subject-compositing/SKILL.md",
+      "computedHash": "bfd6b9321bb71b67cafbca0ab2c15e4be3e4faea827c33bb424c680f1492a612"
+    },
+    "trend-radar": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/trend-radar/SKILL.md",
+      "computedHash": "1e522016b5f64f352843570df2a8b8af1cf0287efcd51a481d70aa8236c901c1"
+    },
+    "video-formats": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/video-formats/SKILL.md",
+      "computedHash": "99a61b28a68aac2dfb6b0efd7c02fe12ad5da5524490723d9db267733bcc2888"
+    },
+    "video-production": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/video-production/SKILL.md",
+      "computedHash": "49ac36a8f720145ee95372dad83662ec97e6ccf4a513af328256b0ce6d751e27"
+    },
+    "voice-matching": {
+      "source": "scrollmark/social-skills",
+      "commit": "f1a8b84af1c59dd009d95336e41a102c421f83db",
+      "sourceType": "github",
+      "skillPath": "skills/voice-matching/SKILL.md",
+      "computedHash": "49d8908197a65c1ba7d9a69c775d2cef0d3f0c7fbb45888e304ed21a7b0c59ce"
+    }
+  }
+}

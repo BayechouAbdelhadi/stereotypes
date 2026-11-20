@@ -71,7 +71,16 @@ The intro and outro are built once as shared components and reused. Copy them fr
 - Music: single quiet ambient bed, same track family, -22 dB under voice. No drops.
 - Verdict impact are the only effects. Both soft.
 
-## 9. Pre-render checklist
+## 9. Description and metadata (every reel)
+
+Every reel ships with `description.md` (template: `reels/_template/description.md`), written when the script is approved:
+- Title for YouTube Shorts (max 70 characters, contains the stereotype as a question).
+- Caption: hook line first (visible before "more"), then 2 to 4 factual sentences taken only from `source.json`, the source line, one question that invites comments, and the series line "Ensemble, tuons les stéréotypes."
+- 8 to 12 hashtags: the 5 fixed series tags plus topic tags.
+- Keywords and a 3 to 5 word cover text.
+- No claim in the description that is not in the reel.
+
+## 10. Pre-render checklist
 
 1. The outro is the shared one, unchanged.
 2. Every on-screen fact has a source in `source.json` and appears on the references card.
@@ -80,4 +89,5 @@ The intro and outro are built once as shared components and reused. Copy them fr
 5. Palette limited to section 7. Red used once.
 6. Narration at length_scale 1.05.
 7. Runtime 45 to 60 s.
-8. Check stills with `scripts/vm reel-still` before final render.
+8. `description.md` filled and consistent with the reel.
+9. Check stills with `scripts/vm reel-still` before final render.
