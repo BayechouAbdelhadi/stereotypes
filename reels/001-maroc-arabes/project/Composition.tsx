@@ -23,7 +23,8 @@ export interface SceneProps {}
 
 const FPS = 30;
 const S = (sec: number) => Math.round(sec * FPS);
-const TOTAL = 33;
+const OFF = 4.6; // spoken intro
+const TOTAL = 34.7;
 
 const INK = "#0A0A0C";
 const BONE = "#F4F1EA";
@@ -34,26 +35,28 @@ const MUTED = "#8E8E98";
 
 // Scene windows (seconds, global)
 const W = {
-  s1: [0, 3.5],
-  s2: [3.5, 6.0],
-  s3: [6.0, 12.5],
-  s4a: [12.5, 15.4],
-  s4b: [15.4, 20.3],
-  s5: [20.3, 25.8],
-  s6: [25.8, TOTAL],
+  intro: [0, OFF],
+  s1: [0 + OFF, 3.5 + OFF],
+  s2: [3.5 + OFF, 6.1 + OFF],
+  s3: [6.1 + OFF, 13.2 + OFF],
+  s4a: [13.2 + OFF, 16.2 + OFF],
+  s4b: [16.2 + OFF, 21.2 + OFF],
+  s5: [21.2 + OFF, 26.9 + OFF],
+  s6: [26.9 + OFF, TOTAL],
 } as const;
 
 // Narration clips (global start seconds) — durations measured from the Piper output.
 const VOICE: { file: string; at: number }[] = [
-  { file: "s1a", at: 0.3 },
-  { file: "s1b", at: 2.4 },
-  { file: "s2", at: 3.7 },
-  { file: "s3", at: 6.2 },
-  { file: "s4a", at: 12.7 },
-  { file: "s4b", at: 15.6 },
-  { file: "s5", at: 20.5 },
-  { file: "s6a", at: 26.0 },
-  { file: "s6b", at: 28.7 },
+  { file: "intro", at: 0.9 },
+  { file: "s1a", at: 0.3 + OFF },
+  { file: "s1b", at: 2.4 + OFF },
+  { file: "s2", at: 3.7 + OFF },
+  { file: "s3", at: 6.3 + OFF },
+  { file: "s4a", at: 13.4 + OFF },
+  { file: "s4b", at: 16.4 + OFF },
+  { file: "s5", at: 21.5 + OFF },
+  { file: "s6a", at: 27.2 + OFF },
+  { file: "s6b", at: 29.85 + OFF },
 ];
 
 const ease = (f: number, a: number, b: number) =>
@@ -103,6 +106,24 @@ const Background: React.FC = () => (
     </AbsoluteFill>
   </AbsoluteFill>
 );
+
+
+// ---------------------------------------------------------------- Intro (spoken, slow)
+const Intro: React.FC = () => {
+  const f = useCurrentFrame();
+  const t = ease(f, S(0.4), S(1.8));
+  const rule = ease(f, S(1.2), S(3.6));
+  const out = 1 - ease(f, S(OFF) - 14, S(OFF));
+  return (
+    <Frame style={{ opacity: out }}>
+      <div style={{ opacity: t, transform: `translateY(${(1 - t) * 24}px)`, textAlign: "center" }}>
+        <div style={{ fontFamily: ANTON, fontSize: 170, lineHeight: 1.05, color: BONE, letterSpacing: "0.02em" }}>TUONS LE</div>
+        <div style={{ fontFamily: ANTON, fontSize: 170, lineHeight: 1.05, color: SAND, letterSpacing: "0.02em" }}>STÉRÉOTYPE</div>
+      </div>
+      <div style={{ height: 6, width: 620 * rule, background: SAND, marginTop: 50 }} />
+    </Frame>
+  );
+};
 
 // ---------------------------------------------------------------- Scene 1
 const Scene1: React.FC = () => {
@@ -604,7 +625,8 @@ export const Scene: React.FC<SceneProps> = () => {
     <AbsoluteFill style={{ background: INK }}>
       <Background />
       {/* each scene sees local frame 0 at its start */}
-      <Sequence from={S(W.s1[0])} durationInFrames={S(W.s1[1])}><Scene1 /></Sequence>
+      <Sequence from={0} durationInFrames={S(OFF)}><Intro /></Sequence>
+      <Sequence from={S(W.s1[0])} durationInFrames={S(W.s1[1] - W.s1[0])}><Scene1 /></Sequence>
       <Sequence from={S(W.s2[0])} durationInFrames={S(W.s2[1] - W.s2[0])}><Scene2 /></Sequence>
       <Sequence from={S(W.s3[0])} durationInFrames={S(W.s3[1] - W.s3[0])}><Scene3 /></Sequence>
       <Sequence from={S(W.s4a[0])} durationInFrames={S(W.s4a[1] - W.s4a[0])}><Scene4a /></Sequence>
@@ -619,7 +641,7 @@ export const Scene: React.FC<SceneProps> = () => {
           <Audio src={staticFile(`audio/${v.file}.wav`)} volume={1} />
         </Sequence>
       ))}
-      <Sequence from={S(2.4)}>
+      <Sequence from={S(2.4 + OFF)}>
         <Audio src={staticFile("audio/thump.wav")} volume={0.9} />
       </Sequence>
     </AbsoluteFill>

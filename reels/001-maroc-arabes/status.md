@@ -1,6 +1,6 @@
 # Reel 001: "Tous les Marocains sont arabes."
 
-Stage: rendered v1, awaiting review
+Stage: v2 draft rendered (style guide), awaiting review
 
 ## Source (steriotypes DB, id 1246, group Maroc, category histoire)
 
@@ -22,3 +22,7 @@ Stage: rendered v1, awaiting review
 - 2026-11-20: Narration generated (Piper, 9 clips, ~25.5 s speech). Atelier composition authored (Remotion, 1080x1920, 30 fps).
 - 2026-11-20: Render v1 done: reels/001-maroc-arabes/renders/maroc-arabes.mp4 (33.0 s, H.264 + AAC, peak -1.1 dB).
 - Open: user review of timing and voice by ear; no music track (no keys); fonts (Anton, Inter, Noto Sans Tifinagh) are fetched from Google Fonts at render time.
+- 2026-11-20: v2 rebuilt to reels/STYLE-GUIDE.md: voice fr_FR-tom-medium (length_scale 1.12), slow dissolves, shared intro/outro, vector character with 2 slow zooms, small subtitles, references card, new palette. Draft render 58.0 s at 540x960 (--scale=0.5).
+
+- 2026-11-20: v2 (tom voice, character, dissolves) rejected by user. v3 = v1 animation restored, voice fr_FR-siwis-medium at length_scale 1.05 (slightly slower), timeline retimed, no character. Draft 34.6 s at 540x960.
+- 2026-11-20: v4: spoken intro "Tuons le stéréotype." (length_scale 1.4), calmer narration (noise_scale 0.45, noise_w 0.55, silence 0.5), timeline shifted by 4.6 s. Draft 34.8 s at 540x960.

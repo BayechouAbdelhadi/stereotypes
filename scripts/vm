@@ -82,7 +82,7 @@ cmd_reel_narrate() {
   load_reel "$1"
   put "$ROOT/scripts/remote/narrate.py" "/tmp/om_narrate.py"
   put "$ROOT/scripts/remote/make_thump.sh" "/tmp/om_make_thump.sh"
-  run "python /tmp/om_narrate.py $VM_SLUG && sh /tmp/om_make_thump.sh $PROJ/public/audio/thump.wav"
+  run "PYTHONPATH=. python /tmp/om_narrate.py $VM_SLUG && sh /tmp/om_make_thump.sh $PROJ/public/audio/thump.wav"
 }
 
 cmd_reel_still() {
@@ -98,7 +98,7 @@ cmd_reel_still() {
 cmd_reel_render() {
   load_reel "$1"; shift
   local extra="${*:-}"
-  run "cd remotion-composer && npx remotion render projects/$VM_SLUG/index.tsx $COMPOSITION_ID ~/$VM_DIR/$PROJ/renders/$VM_SLUG.mp4 --public-dir=~/$VM_DIR/$PROJ/public --crf=18 --concurrency=3 $extra"
+  run "cd remotion-composer && npx remotion render projects/$VM_SLUG/index.tsx $COMPOSITION_ID \$HOME/$VM_DIR/$PROJ/renders/$VM_SLUG.mp4 --public-dir=\$HOME/$VM_DIR/$PROJ/public --crf=18 --concurrency=3 $extra"
 }
 
 cmd_reel_pull() {

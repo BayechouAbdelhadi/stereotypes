@@ -10,6 +10,7 @@ This folder tracks the reels and holds the scripts that drive the production VM
 - `scripts/vm` - SSH, upload, download and reel build commands (`scripts/vm help`)
 - `scripts/new-reel.sh` - create a reel from `reels/_template`
 - `scripts/remote/` - helpers that run on the VM (narration, impact sound)
+- `reels/STYLE-GUIDE.md` - series rules every reel must follow (pace, intro/outro, character zoom, subtitles, references, palette)
 - `reels/TRACKER.md` - one row per reel and its stage
 - `reels/NNN-slug/` - one folder per reel:
   `status.md`, `script.md`, `art-direction.md`, `source.json`, `narration.json`,

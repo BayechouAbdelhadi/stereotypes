@@ -1,7 +1,11 @@
 {
   "voice": "fr_FR-siwis-medium",
-  "length_scale": 0.95,
+  "length_scale": 1.05,
+  "noise_scale": 0.45,
+  "noise_w": 0.55,
+  "sentence_silence": 0.5,
   "lines": [
+    {"id": "intro", "text": "Tuons le stéréotype.", "length_scale": 1.4, "noise_scale": 0.35, "noise_w": 0.45},
     {"id": "s1a", "text": "Tous les Marocains sont arabes ?"},
     {"id": "s1b", "text": "Faux."},
     {"id": "s2",  "text": "Le Maroc est un pays arabo-berbère."},
