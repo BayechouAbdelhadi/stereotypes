@@ -5,15 +5,49 @@
   "noise_w": 0.55,
   "sentence_silence": 0.5,
   "lines": [
-    {"id": "intro", "text": "Tuons le stéréotype.", "length_scale": 1.4, "noise_scale": 0.35, "noise_w": 0.45},
-    {"id": "s1a", "text": "Tous les Marocains sont arabes ?"},
-    {"id": "s1b", "text": "Faux."},
-    {"id": "s2",  "text": "Le Maroc est un pays arabo-berbère."},
-    {"id": "s3",  "text": "Selon le recensement de 2014, environ un quart des habitants parle l'une des trois variétés du tamazight."},
-    {"id": "s4a", "text": "Langue officielle depuis deux mille onze."},
-    {"id": "s4b", "text": "Et la plupart des Marocains arabophones ont, eux aussi, des ancêtres berbères."},
-    {"id": "s5",  "text": "Les Amazighs vivaient en Afrique du Nord bien avant l'arrivée des armées arabes, au septième siècle."},
-    {"id": "s6a", "text": "Le Maroc n'est pas arabe ou berbère."},
-    {"id": "s6b", "text": "Il est les deux."}
+    {
+      "id": "intro",
+      "text": "Tuons le stéréotype.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "s1a",
+      "text": "Tous les Marocains sont arabes ?"
+    },
+    {
+      "id": "s1b",
+      "text": "Faux."
+    },
+    {
+      "id": "s2",
+      "text": "Le Maroc est un pays arabo-berbère."
+    },
+    {
+      "id": "s3",
+      "text": "Selon le recensement de 2014, environ un quart des habitants parle l'une des trois variétés du tamazight."
+    },
+    {
+      "id": "s4a",
+      "text": "Langue officielle depuis deux mille onze."
+    },
+    {
+      "id": "s4b",
+      "text": "Et la plupart des Marocains arabophones ont, eux aussi, des ancêtres berbères."
+    },
+    {
+      "id": "s5",
+      "text": "Les Amazighs vivaient en Afrique du Nord bien avant l'arrivée des armées arabes, au septième siècle."
+    },
+    {
+      "id": "s6a",
+      "text": "Le Maroc n'est pas arabe ou berbère."
+    },
+    {
+      "id": "s6b",
+      "text": "Il est les deux."
+    }
   ]
 }

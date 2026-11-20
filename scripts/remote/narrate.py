@@ -44,6 +44,16 @@ for line in cfg["lines"]:
     )
     if proc.returncode != 0 or not path.exists():
         sys.exit(f"TTS failed for {line['id']}: {proc.stderr}")
+    # Humanize: remove rumble, warm the body, light compression, tiny room reverb.
+    if line.get("fx", cfg.get("fx", True)):
+        tmp = path.with_suffix(".fx.wav")
+        subprocess.check_call(
+            ["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-af",
+             "highpass=f=80,equalizer=f=180:t=q:w=1:g=2,equalizer=f=5500:t=q:w=1:g=-2,"
+             "acompressor=threshold=0.1:ratio=2:attack=20:release=250,"
+             "aecho=0.85:0.5:45|90:0.18|0.1,loudnorm=I=-18:TP=-2:LRA=7",
+             "-ar", "22050", str(tmp)])
+        tmp.replace(path)
     dur = float(
         subprocess.check_output(
             ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]

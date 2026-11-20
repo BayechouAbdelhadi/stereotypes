@@ -5,7 +5,17 @@
   "noise_w": 0.55,
   "sentence_silence": 0.5,
   "lines": [
-    {"id": "intro", "text": "Tuons le stéréotype.", "length_scale": 1.4, "noise_scale": 0.35, "noise_w": 0.45},
-    {"id": "s1", "text": ""}
+    {
+      "id": "intro",
+      "text": "Tuons le stéréotype.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "s1",
+      "text": ""
+    }
   ]
 }
