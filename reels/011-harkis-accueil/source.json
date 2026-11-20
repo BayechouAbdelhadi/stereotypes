@@ -1,0 +1,14 @@
+{
+ "dataset": "/home/abdelhadi/Documents/steriotypes/data/steriotypes.db",
+ "stereotype_id": 823,
+ "group": "Harkis",
+ "claim": "La France a bien accueilli les harkis en 1962.",
+ "category": "histoire",
+ "verdict": "faux",
+ "rebuttal": "Les harkis rapatriés ont été placés dans des camps de transit et des hameaux de forestage, souvent isolés, avec des conditions de vie très dures. Des familles ont vécu des années dans des baraquements, avec peu de scolarité ni d'accès au travail. Des sources officielles ont reconnu plus tard ces conditions. En 2016, le président de la République a reconnu la responsabilité des gouvernements français dans l'abandon des harkis et les conditions d'accueil indignes.",
+ "history": "Le gouvernement français de 1962 a limité les rapatriements, y compris par des consignes interdisant le transfert des supplétifs. Des officiers ont organisé des départs clandestins. Les familles arrivées en France ont été installées au camp de Rivesaltes, de Bias, de Saint-Maurice-l'Ardoise et dans des hameaux forestiers, parfois jusque dans les années 1970.",
+ "sources": [
+  "Présidence de la République française, Déclaration sur la reconnaissance de la responsabilité de la France envers les harkis, 25 septembre 2016."
+ ],
+ "excluded": "Moumen, Les Français musulmans en Vaucluse (2003) : marquée [À VÉRIFIER] dans la base. Non utilisée."
+}

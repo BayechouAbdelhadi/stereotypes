@@ -34,7 +34,7 @@ reel,wave,status,stereotype_id,group_slug,group,verdict,category,claim
 033,1,todo,1575,peuls,Peuls,faux,histoire,Les Peuls ne sont pas de vrais Africains : ils viennent d'Égypte ou du Moyen-Orient.
 034,1,todo,333,bretons,Bretons,faux,comportement,Les Bretons sont têtus.
 035,1,todo,523,corses,Corses,faux,langue,Le corse n'est qu'un patois italien.
-036,1,todo,823,harkis,Harkis,faux,histoire,La France a bien accueilli les harkis en 1962.
+036,1,rendered,823,harkis,Harkis,faux,histoire,La France a bien accueilli les harkis en 1962.
 037,1,todo,221,basques,Basques,faux,langue,Tous les Basques parlent basque.
 038,1,todo,145,asiatiques,Asiatiques,faux,intelligence,Les Asiatiques sont tous naturellement forts en mathématiques.
 039,1,todo,1247,maroc,Maroc,faux,mode de vie,"Le Maroc, c'est le désert et les chameaux."

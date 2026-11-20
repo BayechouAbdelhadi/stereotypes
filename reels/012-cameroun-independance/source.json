@@ -1,0 +1,15 @@
+{
+ "dataset": "/home/abdelhadi/Documents/steriotypes/data/steriotypes.db",
+ "stereotype_id": 395,
+ "group": "Cameroun",
+ "claim": "L'indépendance du Cameroun a été accordée pacifiquement par la France.",
+ "category": "histoire",
+ "verdict": "faux",
+ "rebuttal": "Le Cameroun a connu une longue guerre avant et après l'indépendance de 1960, entre l'Union des populations du Cameroun (UPC), qui réclamait l'indépendance immédiate et la réunification, et l'administration française puis l'armée camerounaise appuyée par la France. Ce conflit est longtemps resté peu connu du grand public français. Le pays a obtenu son indépendance dans un contexte de répression, avec un pouvoir favorable à Paris.",
+ "history": "L'UPC est fondée en 1948 et interdite en 1955. Son leader Ruben Um Nyobè est tué par l'armée française en 1958. Le président Ahmadou Ahidjo, soutenu par la France, gouverne de 1960 à 1982. La guerre se prolonge jusqu'au début des années 1970.",
+ "sources": [
+  "Thomas Deltombe, Manuel Domergue et Jacob Tatsitsa, Kamerun ! Une guerre cachée aux origines de la Françafrique, La Découverte, 2011.",
+  "Achille Mbembe, La naissance du maquis dans le Sud-Cameroun, 1920-1960, Karthala, 1996."
+ ],
+ "excluded": "Nombre de victimes : débattu par les historiens, marqué « chiffre à vérifier » dans la base. Aucun chiffre utilisé. Empoisonnement de Moumié (1960) non repris."
+}

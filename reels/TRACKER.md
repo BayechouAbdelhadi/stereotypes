@@ -17,3 +17,5 @@ Stages: idea -> plan approved -> script -> narration -> render -> review -> publ
 | 008 | Les Français sont toujours en grève ? | DB 736 + Sirot 2002, loi 1864, Constitution 1946 | 9:16, ~60 s, French | Piper fr_FR-siwis-medium | rendered final, QA pass | 2026-11-20 |
 | 009 | La Corse n'est française que depuis Napoléon ? | DB 524 + Arrighi & Jehasse 2008, traité de Versailles 1768 | 9:16, ~59 s, French | Piper fr_FR-siwis-medium | rendered final, QA pass | 2026-11-20 |
 | 010 | Au Luxembourg, pas de langue luxembourgeoise ? | DB 1156 + loi du 24 février 1984 | 9:16, ~59 s, French | Piper fr_FR-siwis-medium | rendered final, QA pass | 2026-11-20 |
+| 011 | La France a bien accueilli les harkis en 1962 ? | DB 823 + Présidence de la République, 25 sept. 2016 | 9:16, ~56 s, French | Piper fr_FR-siwis-medium | rendered final, QA pass | 2026-11-20 |
+| 012 | L'indépendance du Cameroun a-t-elle été pacifique ? | (set source) | 9:16 | Piper fr_FR-siwis-medium | idea | 2026-11-20 |

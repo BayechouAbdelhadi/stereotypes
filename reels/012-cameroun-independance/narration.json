@@ -1,0 +1,57 @@
+{
+  "voice": "fr_FR-siwis-medium",
+  "length_scale": 1.05,
+  "noise_scale": 0.45,
+  "noise_w": 0.55,
+  "sentence_silence": 0.5,
+  "lines": [
+    {
+      "id": "c1",
+      "text": "Une guerre au Cameroun, longtemps peu connue du grand public français."
+    },
+    {
+      "id": "c2",
+      "text": "Pourtant, on entend : l'indépendance du Cameroun a été pacifique. Voici ce qu'il en est."
+    },
+    {
+      "id": "s2",
+      "text": "En mille neuf cent quarante-huit, l'Union des populations du Cameroun réclame l'indépendance immédiate. Elle est interdite en mille neuf cent cinquante-cinq."
+    },
+    {
+      "id": "s3",
+      "text": "En mille neuf cent cinquante-huit, son leader Ruben Um Nyobè est tué par l'armée française."
+    },
+    {
+      "id": "s4",
+      "text": "L'indépendance arrive en mille neuf cent soixante, dans un contexte de répression, avec un pouvoir favorable à Paris."
+    },
+    {
+      "id": "s5",
+      "text": "La guerre se prolonge jusqu'au début des années soixante-dix."
+    },
+    {
+      "id": "s8a",
+      "text": "Une indépendance pacifique ? Non."
+    },
+    {
+      "id": "s8b",
+      "text": "Une guerre longtemps cachée."
+    },
+    {
+      "id": "outro1",
+      "text": "Les préjugés s'effacent, quand les faits prennent place.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "outro2",
+      "text": "Ensemble, tuons les stéréotypes.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    }
+  ]
+}

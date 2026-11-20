@@ -16,7 +16,7 @@ Idea in, finished 9:16 MP4 plus delivery folder out. Full spec: `reels/PROMPT-VI
 
 ## Workflow
 1. **Audit** (once per session): `scripts/vm status`; `ffmpeg`, `ffprobe`, `node` on host; Piper model on VM (`~/.piper/models`); list `.agents/skills/`.
-2. **Pick topic**: user's, else a `todo` row of `reels/BACKLOG.csv` (prefer recognizable memes with verifiable history). Data: `/home/abdelhadi/Documents/steriotypes/data/steriotypes.db` (tables `stereotypes`, `sources`).
+2. **Pick topic**: user's, else a `todo` row of `reels/BACKLOG.csv`. Standing user preference: choose topics that spark debate/controversy (history, memory, politics, identity), never bland trivia. Guardrails: every claim sourced from a verified `sources` row (not `[À VÉRIFIER]`), calm documentary tone, target the stereotype never the group, no unsourced figures, no incitement. Data: `/home/abdelhadi/Documents/steriotypes/data/steriotypes.db` (tables `stereotypes`, `sources`).
 3. **Scaffold**: `scripts/new-reel.sh slug "Titre" --vm`. Folder prefix NNN = generation order (highest existing + 1), NOT the backlog id. Backlog id goes in `source.json` `stereotype_id` and `reels/BACKLOG.csv` (mark status there).
 4. **Hook** (`.agents/skills/hook-anatomy`, `platform-fluency`): write 3 cold-open variants, score with the 3 questions, keep the best. Cold open 0-2 s: full frame 0, no fade, no logo, voice starts <= 0.3 s, loop opened, closed in the verdict. Log answers in `status.md`.
 5. **Write**: `source.json`, `script.md`, `narration.json` (numbers spelled out for Piper), `art-direction.md`. Target 45-60 s INCLUDING spoken outro (9.4 s) and references card (5 s): about 41 s of story.

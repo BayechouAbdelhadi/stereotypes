@@ -1,0 +1,57 @@
+{
+  "voice": "fr_FR-siwis-medium",
+  "length_scale": 1.05,
+  "noise_scale": 0.45,
+  "noise_w": 0.55,
+  "sentence_silence": 0.5,
+  "lines": [
+    {
+      "id": "c1",
+      "text": "En deux mille seize, le président de la République reconnaît l'abandon des harkis."
+    },
+    {
+      "id": "c2",
+      "text": "Pourtant, on entend encore : la France a bien accueilli les harkis en mille neuf cent soixante-deux. Voici ce qu'il en est."
+    },
+    {
+      "id": "s2",
+      "text": "En mille neuf cent soixante-deux, le gouvernement limite les rapatriements des supplétifs."
+    },
+    {
+      "id": "s3",
+      "text": "Des officiers organisent des départs clandestins."
+    },
+    {
+      "id": "s4",
+      "text": "Les familles arrivées en France sont installées dans des camps de transit et des hameaux de forestage, souvent isolés."
+    },
+    {
+      "id": "s5",
+      "text": "Rivesaltes, Bias, Saint-Maurice-l'Ardoise : des familles y vivent des années dans des baraquements."
+    },
+    {
+      "id": "s8a",
+      "text": "Bien accueillis ? Non."
+    },
+    {
+      "id": "s8b",
+      "text": "La France a elle-même reconnu des conditions d'accueil indignes."
+    },
+    {
+      "id": "outro1",
+      "text": "Les préjugés s'effacent, quand les faits prennent place.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "outro2",
+      "text": "Ensemble, tuons les stéréotypes.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    }
+  ]
+}
