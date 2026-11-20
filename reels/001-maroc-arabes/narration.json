@@ -1,0 +1,15 @@
+{
+  "voice": "fr_FR-siwis-medium",
+  "length_scale": 0.95,
+  "lines": [
+    {"id": "s1a", "text": "Tous les Marocains sont arabes ?"},
+    {"id": "s1b", "text": "Faux."},
+    {"id": "s2",  "text": "Le Maroc est un pays arabo-berbère."},
+    {"id": "s3",  "text": "Selon le recensement de 2014, environ un quart des habitants parle l'une des trois variétés du tamazight."},
+    {"id": "s4a", "text": "Langue officielle depuis deux mille onze."},
+    {"id": "s4b", "text": "Et la plupart des Marocains arabophones ont, eux aussi, des ancêtres berbères."},
+    {"id": "s5",  "text": "Les Amazighs vivaient en Afrique du Nord bien avant l'arrivée des armées arabes, au septième siècle."},
+    {"id": "s6a", "text": "Le Maroc n'est pas arabe ou berbère."},
+    {"id": "s6b", "text": "Il est les deux."}
+  ]
+}

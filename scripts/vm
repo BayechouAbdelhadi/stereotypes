@@ -1,0 +1,179 @@
+#!/usr/bin/env bash
+# vm - control the OpenMontage production VM over SSH.
+# Run `scripts/vm help` for the command list.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# shellcheck source=/dev/null
+source "$ROOT/vm.conf"
+
+SECRET_FILE="${VM_SECRET_FILE:-$ROOT/.vm.secret}"
+KEY="${VM_KEY:-$HOME/.ssh/openmontage_vm}"
+CTL_DIR="$ROOT/.vm"
+TARGET="$VM_USER@$VM_HOST"
+# Remote prelude: Node 22 on PATH, project dir, venv active.
+PRE='export PATH=$HOME/.local/node/bin:$PATH; cd ~/'"$VM_DIR"' && . .venv/bin/activate && '
+
+mkdir -p "$CTL_DIR"
+chmod 700 "$CTL_DIR"
+
+SSH_OPTS=(
+  -o ControlMaster=auto
+  -o "ControlPath=$CTL_DIR/cm-%C"
+  -o ControlPersist=10m
+  -o StrictHostKeyChecking=accept-new
+  -o ServerAliveInterval=30
+)
+
+setup_auth() {
+  if [ -f "$KEY" ]; then
+    SSH_OPTS+=(-i "$KEY" -o IdentitiesOnly=yes -o PreferredAuthentications=publickey)
+  elif [ -f "$SECRET_FILE" ]; then
+    # Password auth through SSH_ASKPASS. The helper only cats the secret file;
+    # the password itself is never written into a script or a command line.
+    local askpass="$CTL_DIR/askpass.sh"
+    printf '#!/bin/sh\ncat "%s"\n' "$SECRET_FILE" >"$askpass"
+    chmod 700 "$askpass"
+    export SSH_ASKPASS="$askpass" SSH_ASKPASS_REQUIRE=force
+    SSH_OPTS+=(-o PreferredAuthentications=password -o PubkeyAuthentication=no)
+  else
+    echo "No auth. Run 'scripts/vm setup-key' or create $SECRET_FILE (chmod 600)." >&2
+    exit 1
+  fi
+}
+
+# --- low-level helpers -----------------------------------------------------
+raw()   { ssh "${SSH_OPTS[@]}" "$TARGET" "$@"; }                    # plain remote shell
+run()   { ssh "${SSH_OPTS[@]}" "$TARGET" "$PRE$*"; }                 # inside project + venv
+rpath() { case "$1" in /*|~*) printf '%s' "$1";; *) printf '%s' "~/$VM_DIR/$1";; esac; }
+put()   { scp -q -r "${SSH_OPTS[@]}" "$1" "$TARGET:$(rpath "$2")"; }
+get()   { scp -q -r "${SSH_OPTS[@]}" "$TARGET:$(rpath "$1")" "$2"; }
+
+# --- reel helpers ----------------------------------------------------------
+reel_dir() {
+  local id="${1:?reel id required, e.g. 001}" d
+  for d in "$ROOT"/reels/"$id"*/; do
+    [ -f "${d}reel.conf" ] && { printf '%s' "${d%/}"; return; }
+  done
+  echo "No reel matching '$id' under reels/." >&2
+  exit 1
+}
+
+load_reel() {
+  REEL="$(reel_dir "$1")"
+  # shellcheck source=/dev/null
+  source "$REEL/reel.conf"   # sets VM_SLUG, COMPOSITION_ID
+  PROJ="projects/$VM_SLUG"
+}
+
+cmd_reel_push() {
+  load_reel "$1"
+  run "mkdir -p $PROJ/public/audio $PROJ/artifacts $PROJ/renders $PROJ/snapshots"
+  local f
+  for f in "$REEL"/project/*; do put "$f" "$PROJ/$(basename "$f")"; done
+  put "$REEL/narration.json" "$PROJ/narration.json"
+  put "$REEL/art-direction.md" "$PROJ/art-direction.md"
+  # The Remotion bundler only resolves node_modules from inside remotion-composer/.
+  run "mkdir -p remotion-composer/$PROJ && cp $PROJ/*.tsx remotion-composer/$PROJ/"
+  echo "pushed $(basename "$REEL") -> $TARGET:~/$VM_DIR/$PROJ"
+}
+
+cmd_reel_narrate() {
+  load_reel "$1"
+  put "$ROOT/scripts/remote/narrate.py" "/tmp/om_narrate.py"
+  put "$ROOT/scripts/remote/make_thump.sh" "/tmp/om_make_thump.sh"
+  run "python /tmp/om_narrate.py $VM_SLUG && sh /tmp/om_make_thump.sh $PROJ/public/audio/thump.wav"
+}
+
+cmd_reel_still() {
+  load_reel "$1"; shift
+  [ $# -gt 0 ] || { echo "usage: vm reel-still <id> <frame> [frame...]" >&2; exit 1; }
+  local fr cmds=""
+  for fr in "$@"; do
+    cmds+="npx remotion still $PROJ/index.tsx $COMPOSITION_ID ~/$VM_DIR/$PROJ/snapshots/f$fr.png --frame=$fr --public-dir=~/$VM_DIR/$PROJ/public >/dev/null && echo still f$fr; "
+  done
+  run "cd remotion-composer && $cmds"
+}
+
+cmd_reel_render() {
+  load_reel "$1"; shift
+  local extra="${*:-}"
+  run "cd remotion-composer && npx remotion render projects/$VM_SLUG/index.tsx $COMPOSITION_ID ~/$VM_DIR/$PROJ/renders/$VM_SLUG.mp4 --public-dir=~/$VM_DIR/$PROJ/public --crf=18 --concurrency=3 $extra"
+}
+
+cmd_reel_pull() {
+  load_reel "$1"
+  mkdir -p "$REEL/renders" "$REEL/snapshots"
+  get "$PROJ/renders/$VM_SLUG.mp4" "$REEL/renders/$VM_SLUG.mp4"
+  run "ls $PROJ/snapshots/*.png >/dev/null 2>&1" && get "$PROJ/snapshots/." "$REEL/snapshots/" || true
+  run "test -f $PROJ/artifacts/durations.json" && get "$PROJ/artifacts/durations.json" "$REEL/durations.json" || true
+  echo "pulled to $REEL/renders and $REEL/snapshots"
+}
+
+cmd_reel_build() {   # push + render + pull
+  cmd_reel_push "$1"
+  cmd_reel_render "$@"
+  cmd_reel_pull "$1"
+}
+
+cmd_status() {
+  raw 'uptime; echo; free -h | head -2; echo; df -h / | tail -1; echo; export PATH=$HOME/.local/node/bin:$PATH; node -v; ls ~/'"$VM_DIR"'/projects 2>/dev/null; echo; pgrep -fa "remotion|chrome-headless" | cut -c1-120 || echo "no render running"'
+}
+
+cmd_setup_key() {
+  if [ ! -f "$KEY" ]; then
+    ssh-keygen -t ed25519 -N "" -C "openmontage-vm" -f "$KEY"
+  fi
+  echo "Installing public key on $TARGET (asks the VM password once)..."
+  ssh-copy-id -i "$KEY.pub" -o StrictHostKeyChecking=accept-new "$TARGET"
+  echo "Done. Key auth now takes priority. You may delete $SECRET_FILE."
+}
+
+usage() {
+  cat <<EOF
+vm - OpenMontage production VM ($TARGET)
+
+  vm status                          VM load, memory, disk, Node, running renders
+  vm ssh                             interactive shell on the VM
+  vm run  <cmd>                      run in ~/$VM_DIR with Node 22 + venv active
+  vm raw  <cmd>                      run a plain remote command
+  vm put  <local> <remote>           upload (remote relative to ~/$VM_DIR)
+  vm get  <remote> <local>           download
+  vm ls   [remote-dir]               list a remote directory
+  vm setup-key                       create a dedicated SSH key and install it
+
+  vm reel-push    <id>               upload a reel's project + narration to the VM
+  vm reel-narrate <id>               generate Piper narration + impact sound
+  vm reel-still   <id> <frame>...    render still frames to check the design
+  vm reel-render  <id> [remotion flags]  render the MP4 (e.g. --scale=0.5 for a draft)
+  vm reel-pull    <id>               download MP4, stills and durations
+  vm reel-build   <id>               push + render + pull
+<id> is the reel number or folder prefix, e.g. 001
+EOF
+}
+
+main() {
+  local c="${1:-help}"; [ $# -gt 0 ] && shift
+  case "$c" in
+    help|-h|--help) usage; return;;
+  esac
+  setup_auth
+  case "$c" in
+    status)        cmd_status;;
+    ssh)           ssh "${SSH_OPTS[@]}" "$TARGET";;
+    run)           run "$*";;
+    raw)           raw "$*";;
+    put)           put "$@";;
+    get)           get "$@";;
+    ls)            run "ls -la ${1:-.}";;
+    setup-key)     cmd_setup_key;;
+    reel-push)     cmd_reel_push "$@";;
+    reel-narrate)  cmd_reel_narrate "$@";;
+    reel-still)    cmd_reel_still "$@";;
+    reel-render)   cmd_reel_render "$@";;
+    reel-pull)     cmd_reel_pull "$@";;
+    reel-build)    cmd_reel_build "$@";;
+    *) echo "unknown command: $c" >&2; usage; exit 1;;
+  esac
+}
+main "$@"

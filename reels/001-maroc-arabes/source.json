@@ -1,0 +1,11 @@
+{
+  "dataset": "/home/abdelhadi/Documents/steriotypes/data/steriotypes.db",
+  "stereotype_id": 1246,
+  "group": "Maroc",
+  "claim": "Tous les Marocains sont arabes.",
+  "category": "histoire",
+  "verdict": "faux",
+  "rebuttal": "Le Maroc est un pays arabo-berbère. Une part importante de la population parle l'une des trois variétés de tamazight, selon le recensement officiel de 2014 (environ un quart des habitants). Le tamazight est langue officielle depuis la Constitution de 2011. La plupart des Marocains arabophones ont aussi des ascendances berbères.",
+  "history": "Les Amazighs (Berbères) habitent l'Afrique du Nord avant l'arrivée des armées arabes au VIIe siècle. L'arabisation a été progressive, puis encouragée après l'indépendance (1956). Le mouvement culturel amazigh a obtenu la reconnaissance officielle de la langue au début du XXIe siècle.",
+  "sources": ["Haut-Commissariat au Plan (Maroc), Recensement général de la population et de l'habitat 2014."]
+}

@@ -1,0 +1,8 @@
+# Secrets and connection state: never commit
+.vm.secret
+.vm/
+*.env
+
+# Heavy generated media (kept in the VM, pulled on demand)
+reels/*/renders/
+reels/*/audio/

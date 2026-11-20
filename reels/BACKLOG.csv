@@ -1,0 +1,501 @@
+reel,wave,status,stereotype_id,group_slug,group,verdict,category,claim
+001,1,done,1246,maroc,Maroc,faux,histoire,Tous les Marocains sont arabes.
+002,1,todo,58,algerie,Algérie,faux,comportement,Les Algériens sont violents et agressifs.
+003,1,todo,2061,tunisie,Tunisie,faux,histoire,"La Tunisie est un pays arabe, donc sans lien avec l'Europe ni avec l'Antiquité."
+004,1,todo,268,berberes,Berbères (Amazighs),faux,histoire,Les Berbères forment un seul peuple homogène.
+005,1,todo,1034,kabyles,Kabyles,faux,politique,Les Kabyles ne sont pas vraiment algériens.
+006,1,todo,89,arabes,Arabes,faux,religion,"Tous les Arabes sont musulmans, et tous les musulmans sont arabes."
+007,1,todo,734,france,France,faux,hygiène,Les Français ne se lavent pas.
+008,1,todo,246,belgique,Belgique,faux,intelligence,"Les Belges sont bêtes, comme dans les blagues belges."
+009,1,todo,1901,suisse,Suisse,faux,langue,Tous les Suisses parlent quatre langues.
+010,1,todo,396,canada,Canada,faux,mode de vie,Les Canadiens vivent dans des igloos et font du hockey toute l'année.
+011,1,todo,807,haiti,Haïti,faux,politique,Haïti est le pays le plus pauvre parce que les Haïtiens ne savent pas se gouverner.
+012,1,todo,1764,senegal,Sénégal,faux,histoire,Les tirailleurs sénégalais étaient tous des Sénégalais.
+013,1,todo,550,cote-d-ivoire,Côte d'Ivoire,faux,langue,Les Ivoiriens parlent un mauvais français.
+014,1,todo,388,cameroun,Cameroun,faux,mode de vie,Les Pygmées du Cameroun sont des primitifs qui vivent nus dans la forêt.
+015,1,todo,1656,rd-congo,République démocratique du Congo,faux,histoire,La colonisation belge a apporté le développement au Congo.
+016,1,todo,471,congo,Congo,faux,histoire,"Le Congo et la République démocratique du Congo, c'est le même pays."
+017,1,todo,1206,mali,Mali,faux,histoire,Le Mali est un pays pauvre qui n'a jamais compté dans l'histoire.
+018,1,todo,1180,madagascar,Madagascar,faux,économie,Madagascar est une île paradisiaque où tout le monde vit heureux.
+019,1,todo,1118,liban,Liban,faux,politique,"Le Hezbollah, c'est tout le Liban."
+020,1,todo,750,gabon,Gabon,faux,mode de vie,"Les Pygmées gabonais vivent isolés dans la forêt, comme à l'âge de pierre."
+021,1,todo,363,burkina-faso,Burkina Faso,faux,politique,Les Africains subissent leurs dictateurs sans jamais se révolter.
+022,1,todo,266,benin,Bénin,faux,histoire,L'Afrique n'a pas d'histoire ni d'art : au Bénin il n'y a rien à voir.
+023,1,todo,2029,togo,Togo,faux,travail,"Les femmes africaines n'ont aucun pouvoir économique : au Togo, elles restent à la maison."
+024,1,todo,1365,niger,Niger,faux,histoire,Les Nigériens n'ont pas de culture ni d'art.
+025,1,todo,1976,tchad,Tchad,faux,mode de vie,"Le Tchad, c'est seulement du désert."
+026,1,todo,1265,mauritanie,Mauritanie,faux,histoire,Tous les Mauritaniens sont arabes ou maures.
+027,1,todo,1719,rwanda,Rwanda,faux,histoire,Le génocide est né d'une vieille haine tribale entre Hutus et Tutsis.
+028,1,todo,1156,luxembourg,Luxembourg,faux,langue,"Au Luxembourg, on parle français ou allemand, pas de langue luxembourgeoise."
+029,1,todo,622,egypte,Égypte,faux,travail,Les Égyptiens sont fainéants et travaillent peu.
+030,1,todo,2121,vietnam,Vietnam,faux,histoire,"Les Vietnamiens sont des Chinois, ou presque."
+031,1,todo,374,cambodge,Cambodge,faux,travail,Les Cambodgiens sont paresseux et lents.
+032,1,todo,181,bambaras,Bambaras,faux,histoire,Tous les Maliens sont des Bambaras.
+033,1,todo,1575,peuls,Peuls,faux,histoire,Les Peuls ne sont pas de vrais Africains : ils viennent d'Égypte ou du Moyen-Orient.
+034,1,todo,333,bretons,Bretons,faux,comportement,Les Bretons sont têtus.
+035,1,todo,523,corses,Corses,faux,langue,Le corse n'est qu'un patois italien.
+036,1,todo,823,harkis,Harkis,faux,histoire,La France a bien accueilli les harkis en 1962.
+037,1,todo,221,basques,Basques,faux,langue,Tous les Basques parlent basque.
+038,1,todo,145,asiatiques,Asiatiques,faux,intelligence,Les Asiatiques sont tous naturellement forts en mathématiques.
+039,1,todo,1247,maroc,Maroc,faux,mode de vie,"Le Maroc, c'est le désert et les chameaux."
+040,1,todo,59,algerie,Algérie,faux,religion,Tous les Algériens sont islamistes ou terroristes.
+041,1,todo,2051,tunisie,Tunisie,exagere,économie,"La Tunisie, c'est un pays de plages et de tourisme de masse, rien d'autre."
+042,1,todo,270,berberes,Berbères (Amazighs),faux,histoire,Berbère veut dire « barbare » : les Berbères sont des peuples sauvages.
+043,1,todo,1040,kabyles,Kabyles,faux,mode de vie,La Kabylie est une région isolée et arriérée.
+044,1,todo,733,france,France,exagere,alimentation,Les Français mangent des grenouilles et des escargots tous les jours.
+045,1,todo,251,belgique,Belgique,faux,langue,Les Belges parlent belge.
+046,1,todo,1908,suisse,Suisse,faux,histoire,Le coucou est une invention suisse.
+047,1,todo,400,canada,Canada,faux,langue,Les Québécois sont des Français d'Amérique qui parlent un français déformé.
+048,1,todo,809,haiti,Haïti,faux,comportement,Les Haïtiens sont responsables de leurs propres malheurs après le séisme de 2010.
+049,1,todo,1765,senegal,Sénégal,faux,travail,Les Sénégalais sont paresseux et vivent de l'aide internationale.
+050,1,todo,552,cote-d-ivoire,Côte d'Ivoire,faux,histoire,Tous les Ivoiriens appartiennent à la même ethnie.
+051,1,todo,393,cameroun,Cameroun,faux,langue,Les Camerounais parlent un français approximatif.
+052,1,todo,1659,rd-congo,République démocratique du Congo,faux,histoire,Les Congolais sont des cannibales.
+053,1,todo,474,congo,Congo,faux,mode de vie,"Le Congo, c'est une jungle impénétrable."
+054,1,todo,1209,mali,Mali,faux,religion,Les Maliens sont des musulmans intolérants.
+055,1,todo,1181,madagascar,Madagascar,faux,histoire,"Les Malgaches forment un seul peuple, avec une seule tradition."
+056,1,todo,1121,liban,Liban,faux,économie,Les Libanais sont tous riches.
+057,1,todo,739,gabon,Gabon,exagere,économie,Le Gabon est un pays riche où tout le monde vit bien grâce au pétrole.
+058,1,todo,368,burkina-faso,Burkina Faso,faux,histoire,"L'Afrique n'a pas de cinéma : le Burkina, c'est juste un pays pauvre sans culture."
+059,1,todo,257,benin,Bénin,exagere,religion,"Le Bénin, c'est le pays de la sorcellerie et de la magie noire."
+060,1,todo,2030,togo,Togo,faux,politique,Les Togolais ne protestent pas : ils acceptent leur régime.
+061,1,todo,1366,niger,Niger,faux,histoire,"Le Niger et le Nigeria, c'est le même pays."
+062,1,todo,1977,tchad,Tchad,faux,religion,Le Tchad est un pays arabe et musulman.
+063,1,todo,1271,mauritanie,Mauritanie,faux,éducation,Les Mauritaniens n'ont pas de culture écrite : c'est une société purement orale.
+064,1,todo,1720,rwanda,Rwanda,faux,apparence,Hutus et Tutsis sont deux races différentes.
+065,1,todo,1158,luxembourg,Luxembourg,faux,histoire,Le Luxembourg n'est qu'une dépendance de la Belgique ou de la France.
+066,1,todo,623,egypte,Égypte,faux,mode de vie,"Les Égyptiens vivent encore comme au temps des pharaons, dans des villages sans modernité."
+067,1,todo,2131,vietnam,Vietnam,faux,éducation,"L'école vietnamienne est faible, comme dans tout pays pauvre."
+068,1,todo,380,cambodge,Cambodge,faux,famille,Les orphelinats du Cambodge accueillent des enfants orphelins qui ont besoin de volontaires étrangers.
+069,1,todo,186,bambaras,Bambaras,faux,histoire,L'art bambara est de l'artisanat primitif.
+070,1,todo,1576,peuls,Peuls,faux,apparence,Les Peuls sont plus beaux ou plus clairs que les autres Africains.
+071,1,todo,336,bretons,Bretons,faux,mode de vie,"Les Bretons sont des paysans arriérés, comme Bécassine."
+072,1,todo,524,corses,Corses,faux,histoire,La Corse n'est française que depuis Napoléon.
+073,1,todo,826,harkis,Harkis,faux,économie,Les harkis ont été récompensés par la France pour leurs services.
+074,1,todo,211,basques,Basques,exagere,criminalité,Les Basques sont tous des terroristes.
+075,1,todo,1248,maroc,Maroc,exagere,famille,Les femmes marocaines sont soumises.
+076,1,todo,61,algerie,Algérie,faux,mode de vie,Les Algériens en France ne s'intègrent pas.
+077,1,todo,2052,tunisie,Tunisie,exagere,criminalité,La Tunisie est un pays de terroristes.
+078,1,todo,271,berberes,Berbères (Amazighs),faux,langue,Les Berbères sont des Arabes.
+079,1,todo,1047,kabyles,Kabyles,faux,politique,Le mouvement kabyle est une manipulation de l'étranger.
+080,1,todo,735,france,France,exagere,langue,Les Français ne parlent pas anglais.
+081,1,todo,255,belgique,Belgique,faux,histoire,La colonisation belge au Congo a été plus douce et paternaliste que les autres.
+082,1,todo,1897,suisse,Suisse,exagere,économie,Tous les Suisses sont riches.
+083,1,todo,401,canada,Canada,faux,politique,"Le Canada est un 51e État américain, pareil aux États-Unis en plus petit."
+084,1,todo,812,haiti,Haïti,faux,travail,Les Haïtiens ne travaillent pas et vivent de l'aide internationale.
+085,1,todo,1761,senegal,Sénégal,exagere,économie,Le Sénégal est un pays de misère où tout le monde vit dans la pauvreté.
+086,1,todo,543,cote-d-ivoire,Côte d'Ivoire,exagere,politique,Les Ivoiriens sont xénophobes envers les étrangers.
+087,1,todo,395,cameroun,Cameroun,faux,histoire,L'indépendance du Cameroun a été accordée pacifiquement par la France.
+088,1,todo,1661,rd-congo,République démocratique du Congo,faux,mode de vie,Les Congolais fuient en masse vers l'Europe.
+089,1,todo,478,congo,Congo,faux,histoire,"Avant la colonisation, il n'y avait pas d'États en Afrique centrale."
+090,1,todo,1210,mali,Mali,faux,travail,"Les Maliens sont paresseux, c'est pour cela que le pays est pauvre."
+091,1,todo,1187,madagascar,Madagascar,faux,langue,Tous les Malgaches parlent français.
+092,1,todo,1125,liban,Liban,faux,langue,Les Libanais parlent arabe et rien d'autre.
+093,1,todo,741,gabon,Gabon,exagere,mode de vie,"Au Gabon, les gens vivent dans la jungle parmi les gorilles."
+094,1,todo,357,burkina-faso,Burkina Faso,exagere,économie,"Le Burkina Faso est un pays sans ressources, condamné à la pauvreté."
+095,1,todo,260,benin,Bénin,exagere,économie,Le Bénin est un pays sans ressources qui vit de l'aide.
+096,1,todo,2031,togo,Togo,faux,langue,Le Togo n'a qu'une seule langue et une seule culture.
+097,1,todo,1355,niger,Niger,exagere,mode de vie,"Le Niger, c'est le désert et rien d'autre."
+098,1,todo,1981,tchad,Tchad,faux,histoire,Le Tchad n'a pas d'histoire avant la colonisation.
+099,1,todo,1273,mauritanie,Mauritanie,faux,histoire,Les Noirs de Mauritanie sont des étrangers venus du Sénégal ou du Mali.
+100,1,todo,1721,rwanda,Rwanda,faux,histoire,Tous les Hutus ont participé au génocide.
+101,2,todo,1161,luxembourg,Luxembourg,faux,mode de vie,"Le Luxembourg est une ville-État minuscule, sans campagne."
+102,2,todo,626,egypte,Égypte,faux,alimentation,"En Égypte, la cuisine se résume au falafel et au kebab."
+103,2,todo,2120,vietnam,Vietnam,exagere,histoire,"Le Vietnam, c'est la guerre."
+104,2,todo,369,cambodge,Cambodge,exagere,histoire,Le Cambodge se résume à Angkor Wat et au génocide des Khmers rouges.
+105,2,todo,189,bambaras,Bambaras,faux,langue,"Le bambara est un simple dialecte, pas une vraie langue."
+106,2,todo,1586,peuls,Peuls,faux,politique,Les Peuls contrôlent l'économie guinéenne et complotent contre l'État.
+107,2,todo,335,bretons,Bretons,exagere,mode de vie,Il pleut tout le temps en Bretagne.
+108,2,todo,525,corses,Corses,faux,économie,Les Corses roulent sur l'or et possèdent tous des villas.
+109,2,todo,827,harkis,Harkis,faux,politique,Les harkis ne sont pas vraiment français.
+110,2,todo,212,basques,Basques,exagere,langue,La langue basque est mystérieuse et n'a aucun lien avec les autres langues.
+111,2,todo,1249,maroc,Maroc,exagere,mode de vie,Tous les Marocains ont émigré en Europe.
+112,2,todo,62,algerie,Algérie,faux,travail,"Les Algériens sont paresseux, ils ne veulent pas travailler."
+113,2,todo,2054,tunisie,Tunisie,exagere,langue,Tous les Tunisiens parlent français et sont presque des Français.
+114,2,todo,273,berberes,Berbères (Amazighs),faux,langue,Les Berbères n'ont pas d'écriture : leur culture est seulement orale.
+115,2,todo,1035,kabyles,Kabyles,exagere,comportement,Les Kabyles sont têtus et rebelles par nature.
+116,2,todo,736,france,France,exagere,travail,Les Français sont toujours en grève.
+117,2,todo,247,belgique,Belgique,exagere,politique,"La Belgique n'existe pas vraiment, c'est un pays artificiel qui va disparaître."
+118,2,todo,1899,suisse,Suisse,exagere,politique,La Suisse est neutre et n'a jamais fait la guerre.
+119,2,todo,405,canada,Canada,faux,histoire,Les peuples autochtones du Canada sont aujourd'hui intégrés et leur situation est réglée.
+120,2,todo,816,haiti,Haïti,faux,hygiène,Les Haïtiens sont porteurs du sida.
+121,2,todo,1762,senegal,Sénégal,exagere,religion,Les Sénégalais sont tous musulmans et obéissent aveuglément à leurs marabouts.
+122,2,todo,544,cote-d-ivoire,Côte d'Ivoire,exagere,politique,La Côte d'Ivoire est un pays en guerre civile permanente.
+123,2,todo,384,cameroun,Cameroun,exagere,politique,Le Cameroun anglophone et le Cameroun francophone sont deux pays qui se détestent.
+124,2,todo,1664,rd-congo,République démocratique du Congo,faux,histoire,"Le Congo de Kinshasa et le Congo de Brazzaville, c'est la même chose."
+125,2,todo,473,congo,Congo,exagere,mode de vie,Les Congolais ne pensent qu'à s'habiller avec des vêtements de luxe.
+126,2,todo,1214,mali,Mali,faux,mode de vie,Les griots sont de simples mendiants qui chantent pour de l'argent.
+127,2,todo,1191,madagascar,Madagascar,faux,travail,Les Malgaches sont lents et paresseux : « mora mora ».
+128,2,todo,1113,liban,Liban,exagere,histoire,Les Libanais sont des Arabes comme les autres.
+129,2,todo,742,gabon,Gabon,exagere,travail,Les Gabonais ne travaillent pas : ce sont les étrangers qui font tout.
+130,2,todo,358,burkina-faso,Burkina Faso,exagere,mode de vie,Les Burkinabè sont tous des immigrés en Côte d'Ivoire.
+131,2,todo,261,benin,Bénin,exagere,éducation,Le Bénin est le « Quartier latin de l'Afrique » : un pays de diplômés.
+132,2,todo,2026,togo,Togo,exagere,économie,Le Togo est un petit pays sans ressources.
+133,2,todo,1357,niger,Niger,exagere,mode de vie,Les Touaregs sont les Nigériens : des nomades du désert qui vivent en bleu.
+134,2,todo,1986,tchad,Tchad,faux,mode de vie,Les Tchadiens fuient en masse vers l'Europe.
+135,2,todo,1263,mauritanie,Mauritanie,exagere,mode de vie,"La Mauritanie, c'est un désert sans habitants."
+136,2,todo,1722,rwanda,Rwanda,faux,histoire,Le génocide a été un déchaînement spontané de violence après la mort du président.
+137,2,todo,1162,luxembourg,Luxembourg,faux,politique,Le grand-duc gouverne le Luxembourg.
+138,2,todo,628,egypte,Égypte,faux,histoire,L'Égypte est le pays le plus peuplé d'Afrique.
+139,2,todo,2122,vietnam,Vietnam,exagere,alimentation,Les Vietnamiens mangent du chien et du chat.
+140,2,todo,370,cambodge,Cambodge,exagere,économie,Le Cambodge est un pays très pauvre qui n'a pas évolué depuis la guerre.
+141,2,todo,193,bambaras,Bambaras,faux,comportement,Les Bambaras sont arriérés et résistent à tout changement.
+142,2,todo,1587,peuls,Peuls,faux,éducation,"Les Peuls sont des bergers ignorants, sans instruction."
+143,2,todo,337,bretons,Bretons,exagere,langue,Le breton est un patois et plus personne ne le parle.
+144,2,todo,513,corses,Corses,exagere,travail,Les Corses sont fainéants.
+145,2,todo,832,harkis,Harkis,faux,politique,Les harkis sont une communauté unie qui pense tous la même chose.
+146,2,todo,213,basques,Basques,exagere,histoire,"Les Basques sont une « race » à part, avec un sang différent."
+147,2,todo,1250,maroc,Maroc,grain_de_verite,criminalité,Le Maroc est un pays de cannabis.
+148,2,todo,63,algerie,Algérie,faux,histoire,La guerre d'Algérie n'était qu'une question de terrorisme.
+149,2,todo,2055,tunisie,Tunisie,exagere,religion,Les Tunisiens sont tous musulmans et pratiquants rigoristes.
+150,2,todo,274,berberes,Berbères (Amazighs),faux,politique,Les Berbères n'ont jamais eu d'États ni de grands empires.
+151,2,todo,1037,kabyles,Kabyles,exagere,religion,Les Kabyles sont plus laïques et moins musulmans que les autres Algériens.
+152,2,todo,737,france,France,grain_de_verite,comportement,Les Français sont arrogants.
+153,2,todo,248,belgique,Belgique,exagere,alimentation,Les Belges ne mangent que des frites et de la bière.
+154,2,todo,1900,suisse,Suisse,exagere,économie,"La Suisse n'a produit que du chocolat, du fromage et des montres."
+155,2,todo,397,canada,Canada,exagere,comportement,Les Canadiens sont toujours polis et s'excusent pour tout.
+156,2,todo,817,haiti,Haïti,faux,mode de vie,"Haïti n'a pas de culture, seulement de la misère."
+157,2,todo,1763,senegal,Sénégal,exagere,habitudes,Les Sénégalais sont tous des migrants qui rêvent d'aller en Europe.
+158,2,todo,547,cote-d-ivoire,Côte d'Ivoire,exagere,religion,Le pays est coupé entre un nord musulman et un sud chrétien qui s'opposent.
+159,2,todo,385,cameroun,Cameroun,exagere,criminalité,"Les Camerounais sont des « feymen », des escrocs."
+160,2,todo,1650,rd-congo,République démocratique du Congo,exagere,politique,"Le Congo, c'est la guerre permanente."
+161,2,todo,475,congo,Congo,exagere,politique,Le Congo est un pays en guerre permanente.
+162,2,todo,1216,mali,Mali,faux,éducation,L'Afrique n'avait pas d'écriture ni de savoir avant la colonisation.
+163,2,todo,1178,madagascar,Madagascar,exagere,mode de vie,"Madagascar, c'est les lémuriens et les baobabs, comme dans le dessin animé."
+164,2,todo,1114,liban,Liban,exagere,religion,Le Liban est un pays chrétien.
+165,2,todo,744,gabon,Gabon,exagere,histoire,"Albert Schweitzer a sauvé l'Afrique : sans les Blancs, les Gabonais n'auraient pas de médecine."
+166,2,todo,359,burkina-faso,Burkina Faso,exagere,politique,Tout le Burkina Faso est une zone de guerre djihadiste.
+167,2,todo,263,benin,Bénin,exagere,religion,"Au Bénin, le Nord musulman et le Sud chrétien s'opposent."
+168,2,todo,2027,togo,Togo,exagere,religion,"Le Togo est le pays du vaudou, de la sorcellerie et des fétiches."
+169,2,todo,1360,niger,Niger,exagere,mode de vie,Tous les Nigériens veulent partir en Europe.
+170,2,todo,1987,tchad,Tchad,faux,histoire,Le Tchad est un pays marginal qui n'a joué aucun rôle dans l'histoire mondiale.
+171,2,todo,1266,mauritanie,Mauritanie,exagere,mode de vie,Les Mauritaniens sont tous des nomades du désert.
+172,2,todo,1730,rwanda,Rwanda,faux,langue,"Au Rwanda, tout le monde parle français."
+173,2,todo,1165,luxembourg,Luxembourg,faux,politique,Le Luxembourg est trop petit pour compter en Europe.
+174,2,todo,629,egypte,Égypte,faux,politique,Le Nil appartient à l'Égypte.
+175,2,todo,2123,vietnam,Vietnam,exagere,économie,Le Vietnam est un pays pauvre fait de rizières et de villages.
+176,2,todo,371,cambodge,Cambodge,exagere,histoire,Tous les Cambodgiens ont vécu le génocide et sont traumatisés.
+177,2,todo,182,bambaras,Bambaras,exagere,religion,Les Bambaras sont des païens fétichistes.
+178,2,todo,1574,peuls,Peuls,exagere,mode de vie,Les Peuls sont tous des éleveurs nomades.
+179,2,todo,338,bretons,Bretons,exagere,politique,Les Bretons sont tous des séparatistes.
+180,2,todo,514,corses,Corses,exagere,criminalité,Les Corses sont tous des mafieux ou des bandits.
+181,2,todo,821,harkis,Harkis,exagere,politique,Les harkis étaient tous des traîtres à l'Algérie.
+182,2,todo,214,basques,Basques,exagere,comportement,Les Basques sont têtus et bornés.
+183,2,todo,57,algerie,Algérie,exagere,histoire,Les Algériens sont tous arabes.
+184,2,todo,2057,tunisie,Tunisie,exagere,comportement,Les Tunisiens sont des commerçants qui marchandent tout.
+185,2,todo,277,berberes,Berbères (Amazighs),faux,politique,Les Berbères sont plus laïques et plus « européens » que les Arabes.
+186,2,todo,1038,kabyles,Kabyles,exagere,comportement,Les Kabyles s'intègrent mieux que les autres immigrés maghrébins.
+187,2,todo,738,france,France,grain_de_verite,comportement,Tous les Français sont râleurs.
+188,2,todo,249,belgique,Belgique,exagere,politique,Bruxelles est la capitale des technocrates et de la bureaucratie.
+189,2,todo,1904,suisse,Suisse,exagere,politique,"En Suisse, le peuple décide de tout, c'est la démocratie parfaite."
+190,2,todo,398,canada,Canada,exagere,comportement,"Le Canada est un pays sans racisme, parfaitement tolérant."
+191,2,todo,818,haiti,Haïti,faux,comportement,Les Haïtiens sont violents par nature.
+192,2,todo,1768,senegal,Sénégal,exagere,famille,Les femmes sénégalaises sont soumises et sans pouvoir.
+193,2,todo,548,cote-d-ivoire,Côte d'Ivoire,exagere,criminalité,"Les Ivoiriens sont tous des arnaqueurs sur internet, les « brouteurs »."
+194,2,todo,390,cameroun,Cameroun,exagere,économie,Les Bamiléké sont des commerçants avares qui accaparent les richesses.
+195,2,todo,1653,rd-congo,République démocratique du Congo,exagere,mode de vie,"Le Congo, c'est la forêt et les villages isolés."
+196,2,todo,476,congo,Congo,exagere,mode de vie,"Les Pygmées vivent tous isolés dans la forêt, comme il y a mille ans."
+197,2,todo,1207,mali,Mali,exagere,mode de vie,"Le Mali, c'est un immense désert."
+198,2,todo,1183,madagascar,Madagascar,exagere,religion,Les Malgaches sont animistes.
+199,2,todo,1116,liban,Liban,exagere,travail,Les Libanais sont tous des commerçants nés.
+200,2,todo,747,gabon,Gabon,exagere,politique,Les Fang dominent le Gabon et les ethnies s'y affrontent.
+201,3,todo,361,burkina-faso,Burkina Faso,exagere,politique,Les Mossis dominent tout le pays et les ethnies s'y opposent.
+202,3,todo,267,benin,Bénin,exagere,famille,Les hommes béninois ont tous plusieurs femmes.
+203,3,todo,2032,togo,Togo,exagere,éducation,"Au Togo, tout le monde est analphabète."
+204,3,todo,1362,niger,Niger,exagere,religion,Le Niger est un foyer du terrorisme islamiste.
+205,3,todo,1978,tchad,Tchad,exagere,politique,Le Tchad est déchiré par un conflit entre le Nord musulman et le Sud chrétien.
+206,3,todo,1267,mauritanie,Mauritanie,exagere,criminalité,La Mauritanie est un repaire de terroristes d'Al-Qaïda.
+207,3,todo,1731,rwanda,Rwanda,faux,politique,Le monde ne pouvait pas savoir ce qui se passait en 1994.
+208,3,todo,1154,luxembourg,Luxembourg,exagere,économie,Le Luxembourg est un paradis fiscal.
+209,3,todo,615,egypte,Égypte,exagere,histoire,"L'Égypte, c'est surtout des pyramides, des pharaons et du désert."
+210,3,todo,2124,vietnam,Vietnam,exagere,politique,"Le Vietnam étant communiste, il n'y a pas de commerce ni d'entreprises privées."
+211,3,todo,372,cambodge,Cambodge,exagere,religion,Les Cambodgiens sont des bouddhistes doux et pacifiques par nature.
+212,3,todo,183,bambaras,Bambaras,exagere,comportement,Les Bambaras sont un peuple de guerriers brutaux.
+213,3,todo,1577,peuls,Peuls,exagere,politique,Les Peuls sont des terroristes ou des jihadistes.
+214,3,todo,340,bretons,Bretons,exagere,travail,Les Bretons sont tous marins ou pêcheurs.
+215,3,todo,515,corses,Corses,exagere,politique,Tous les Corses sont nationalistes et poseraient des bombes.
+216,3,todo,822,harkis,Harkis,exagere,histoire,Les harkis se sont tous engagés volontairement aux côtés de la France.
+217,3,todo,216,basques,Basques,exagere,apparence,Les Basques sont tous des hommes très forts qui soulèvent des pierres.
+218,3,todo,64,algerie,Algérie,exagere,famille,Les femmes algériennes sont soumises et sans droits.
+219,3,todo,2058,tunisie,Tunisie,exagere,habitudes,Les Tunisiens veulent tous partir en Europe.
+220,3,todo,279,berberes,Berbères (Amazighs),faux,langue,Le berbère n'est qu'un dialecte sans valeur.
+221,3,todo,1039,kabyles,Kabyles,exagere,apparence,Les Kabyles sont tous blonds aux yeux bleus.
+222,3,todo,252,belgique,Belgique,exagere,langue,Tous les Belges sont bilingues ou trilingues.
+223,3,todo,1905,suisse,Suisse,exagere,mode de vie,Tous les Suisses vivent dans des chalets à la montagne et skient.
+224,3,todo,399,canada,Canada,exagere,langue,Tous les Canadiens parlent français et anglais.
+225,3,todo,808,haiti,Haïti,exagere,religion,"Haïti, c'est le vaudou et la magie noire."
+226,3,todo,1769,senegal,Sénégal,exagere,langue,Les Sénégalais ne parlent que le wolof.
+227,3,todo,551,cote-d-ivoire,Côte d'Ivoire,exagere,politique,La Côte d'Ivoire est toujours une colonie française déguisée.
+228,3,todo,391,cameroun,Cameroun,exagere,criminalité,Le Cameroun est dangereux à cause de Boko Haram.
+229,3,todo,1654,rd-congo,République démocratique du Congo,exagere,politique,Le Congo est un pays tribal où les ethnies se font la guerre.
+230,3,todo,479,congo,Congo,exagere,comportement,Tous les Congolais savent chanter et danser.
+231,3,todo,1208,mali,Mali,exagere,criminalité,Le Mali est un pays de terroristes.
+232,3,todo,1184,madagascar,Madagascar,exagere,criminalité,"À Madagascar, tout le monde est voleur de zébus : les dahalo."
+233,3,todo,1117,liban,Liban,exagere,histoire,Le Liban est un pays en guerre civile permanente.
+234,3,todo,748,gabon,Gabon,exagere,économie,Le Gabon ne vit que du pétrole.
+235,3,todo,362,burkina-faso,Burkina Faso,exagere,comportement,"Les Burkinabè sont des « hommes intègres », donc sans corruption."
+236,3,todo,258,benin,Bénin,grain_de_verite,histoire,"Le royaume du Dahomey, c'étaient des amazones sanguinaires et des sacrifices humains."
+237,3,todo,2034,togo,Togo,exagere,économie,Le Togo est la « Suisse de l'Afrique » : calme et prospère.
+238,3,todo,1363,niger,Niger,exagere,alimentation,Les Nigériens vivent dans la famine permanente.
+239,3,todo,1979,tchad,Tchad,exagere,politique,Le Tchad est en guerre depuis toujours.
+240,3,todo,1269,mauritanie,Mauritanie,exagere,économie,La Mauritanie est un pays pauvre sans aucune ressource.
+241,3,todo,1718,rwanda,Rwanda,exagere,histoire,"Le Rwanda, c'est seulement le génocide."
+242,3,todo,1157,luxembourg,Luxembourg,exagere,langue,Le luxembourgeois est un simple dialecte allemand.
+243,3,todo,616,egypte,Égypte,exagere,histoire,"Les Égyptiens modernes sont les descendants directs des pharaons, ou au contraire n'ont aucun lien avec eux."
+244,3,todo,2125,vietnam,Vietnam,exagere,travail,Les Vietnamiens sont tous manucures ou restaurateurs.
+245,3,todo,376,cambodge,Cambodge,exagere,politique,"Le Cambodge est un pays soumis à la Chine, qui le possède économiquement."
+246,3,todo,184,bambaras,Bambaras,exagere,travail,Les Bambaras ne sont que des paysans.
+247,3,todo,1578,peuls,Peuls,exagere,criminalité,Les bergers peuls attaquent les agriculteurs et sont responsables des violences au Nigeria.
+248,3,todo,342,bretons,Bretons,exagere,histoire,Les Bretons sont les descendants directs des Gaulois et des Celtes.
+249,3,todo,516,corses,Corses,exagere,travail,Les Corses sont tous fonctionnaires.
+250,3,todo,824,harkis,Harkis,exagere,histoire,Tous les harkis ont été massacrés après 1962.
+251,3,todo,217,basques,Basques,exagere,politique,Tous les Basques veulent l'indépendance.
+252,3,todo,65,algerie,Algérie,exagere,habitudes,Tous les Algériens veulent émigrer en Europe.
+253,3,todo,2059,tunisie,Tunisie,exagere,économie,La Tunisie est un pays pauvre.
+254,3,todo,269,berberes,Berbères (Amazighs),exagere,mode de vie,Les Berbères sont des nomades du désert.
+255,3,todo,1041,kabyles,Kabyles,exagere,histoire,Les Kabyles ont été les favoris de la France coloniale.
+256,3,todo,253,belgique,Belgique,exagere,mode de vie,La Belgique est un pays plat.
+257,3,todo,1909,suisse,Suisse,exagere,politique,La Suisse est coupée en deux : les Romands et les Alémaniques ne s'entendent pas.
+258,3,todo,402,canada,Canada,exagere,alimentation,Les Canadiens ne mangent que du sirop d'érable et de la poutine.
+259,3,todo,810,haiti,Haïti,exagere,mode de vie,Tous les Haïtiens sont des réfugiés ou des migrants illégaux.
+260,3,todo,1770,senegal,Sénégal,exagere,travail,Les Sénégalais sont tous des vendeurs ambulants ou des commerçants.
+261,3,todo,554,cote-d-ivoire,Côte d'Ivoire,exagere,religion,Les Ivoiriens croient tous à la sorcellerie.
+262,3,todo,382,cameroun,Cameroun,grain_de_verite,histoire,Le Cameroun est l'« Afrique en miniature ».
+263,3,todo,1658,rd-congo,République démocratique du Congo,exagere,hygiène,Les Congolais propagent Ebola.
+264,3,todo,481,congo,Congo,exagere,religion,Les Congolais croient tous à la sorcellerie.
+265,3,todo,1211,mali,Mali,exagere,habitudes,Presque tous les Maliens cherchent à émigrer en Europe.
+266,3,todo,1192,madagascar,Madagascar,exagere,histoire,La reine Ranavalona Ire était une tyran sanguinaire.
+267,3,todo,1119,liban,Liban,exagere,famille,Les Libanaises sont libérées et vivent comme des Occidentales.
+268,3,todo,749,gabon,Gabon,exagere,politique,"Le Gabon est un havre de paix, sans violence politique."
+269,3,todo,364,burkina-faso,Burkina Faso,exagere,religion,Le Burkina Faso est un pays entièrement musulman.
+270,3,todo,259,benin,Bénin,grain_de_verite,histoire,Les Africains ont vendu leurs propres frères aux Européens : les Béninois en particulier.
+271,3,todo,2035,togo,Togo,exagere,hygiène,Le Togo est ravagé par le sida.
+272,3,todo,1367,niger,Niger,exagere,famille,Les femmes nigériennes n'ont aucun droit ni aucun pouvoir.
+273,3,todo,1982,tchad,Tchad,exagere,mode de vie,Les Tchadiens sont tous nomades.
+274,3,todo,1264,mauritanie,Mauritanie,grain_de_verite,histoire,"En Mauritanie, l'esclavage existe toujours."
+275,3,todo,1724,rwanda,Rwanda,exagere,économie,"Le Rwanda est le Singapour africain, un modèle sans défaut."
+276,3,todo,1159,luxembourg,Luxembourg,exagere,économie,"Le Luxembourg, c'est seulement des banques."
+277,3,todo,617,egypte,Égypte,exagere,religion,Les Égyptiens sont tous musulmans.
+278,3,todo,2129,vietnam,Vietnam,exagere,histoire,Les Vietnamiens sont tous des boat people.
+279,3,todo,377,cambodge,Cambodge,exagere,alimentation,La cuisine cambodgienne n'est qu'une copie de la cuisine thaïlandaise ou vietnamienne.
+280,3,todo,185,bambaras,Bambaras,exagere,religion,Les Bambaras pratiquent la sorcellerie et la magie noire.
+281,3,todo,1580,peuls,Peuls,exagere,travail,Les Peuls méprisent le travail de la terre et ne cultivent pas.
+282,3,todo,344,bretons,Bretons,exagere,comportement,Les Bretons sont superstitieux et croient à l'Ankou.
+283,3,todo,517,corses,Corses,exagere,histoire,Les Corses règlent leurs comptes par la vendetta.
+284,3,todo,828,harkis,Harkis,exagere,comportement,Les harkis et leurs descendants sont mal vus des autres personnes d'origine algérienne parce qu'ils sont tous pro-français.
+285,3,todo,218,basques,Basques,exagere,comportement,Les Basques sont fermés et n'aiment pas les étrangers.
+286,3,todo,67,algerie,Algérie,exagere,politique,Les Algériens détestent les Français.
+287,3,todo,2053,tunisie,Tunisie,grain_de_verite,famille,"La Tunisie est le pays le plus moderne du monde arabe pour les femmes, donc l'égalité y est acquise."
+288,3,todo,272,berberes,Berbères (Amazighs),exagere,apparence,Les Berbères sont blonds aux yeux bleus.
+289,3,todo,1043,kabyles,Kabyles,exagere,politique,Les Kabyles vivent dans une démocratie villageoise parfaite.
+290,3,todo,250,belgique,Belgique,grain_de_verite,travail,Les Wallons sont paresseux et les Flamands travailleurs.
+291,3,todo,1898,suisse,Suisse,grain_de_verite,comportement,Les Suisses sont d'une ponctualité et d'une précision absolues.
+292,3,todo,406,canada,Canada,exagere,mode de vie,"Le Canada est entièrement couvert de neige et d'ours, une immense nature sauvage."
+293,3,todo,813,haiti,Haïti,exagere,éducation,Les Haïtiens sont superstitieux et peu instruits.
+294,3,todo,1771,senegal,Sénégal,exagere,criminalité,Dakar est dangereuse et pleine de criminels.
+295,3,todo,555,cote-d-ivoire,Côte d'Ivoire,exagere,criminalité,Abidjan est une ville très dangereuse pour les visiteurs.
+296,3,todo,383,cameroun,Cameroun,grain_de_verite,politique,Le Cameroun est un pays où la corruption règne partout.
+297,3,todo,1660,rd-congo,République démocratique du Congo,exagere,travail,Tous les enfants congolais travaillent dans les mines de cobalt.
+298,3,todo,482,congo,Congo,exagere,mode de vie,Les Congolais veulent tous émigrer en France.
+299,3,todo,1215,mali,Mali,exagere,histoire,Les Touaregs sont des rebelles et des pillards du désert.
+300,3,todo,1179,madagascar,Madagascar,grain_de_verite,histoire,"Les Malgaches ne sont pas vraiment des Africains, ce sont des Asiatiques."
+301,4,todo,1120,liban,Liban,exagere,mode de vie,Beyrouth est une ville détruite.
+302,4,todo,740,gabon,Gabon,grain_de_verite,politique,Le Gabon est une dynastie : les Bongo et la France.
+303,4,todo,366,burkina-faso,Burkina Faso,exagere,famille,"Au Burkina, toutes les filles sont excisées."
+304,4,todo,262,benin,Bénin,grain_de_verite,politique,Le Bénin est un modèle de démocratie en Afrique.
+305,4,todo,2025,togo,Togo,grain_de_verite,politique,Le Togo est une dictature familiale.
+306,4,todo,1356,niger,Niger,grain_de_verite,économie,Le Niger est le pays le plus pauvre du monde.
+307,4,todo,1983,tchad,Tchad,exagere,histoire,Le lac Tchad a disparu.
+308,4,todo,1268,mauritanie,Mauritanie,grain_de_verite,apparence,"En Mauritanie, on gave les jeunes filles pour qu'elles soient belles."
+309,4,todo,1726,rwanda,Rwanda,exagere,économie,Les Rwandais sont tous des paysans pauvres.
+310,4,todo,1163,luxembourg,Luxembourg,exagere,religion,Les Luxembourgeois sont tous catholiques et conservateurs.
+311,4,todo,621,egypte,Égypte,exagere,criminalité,L'Égypte est un pays de terroristes.
+312,4,todo,2134,vietnam,Vietnam,exagere,sexualité,"Les Vietnamiennes sont douces, soumises et exotiques."
+313,4,todo,378,cambodge,Cambodge,exagere,mode de vie,Les Cambodgiens sont tous des paysans qui vivent dans des villages de rizières.
+314,4,todo,187,bambaras,Bambaras,exagere,histoire,Les Bambaras n'ont ni État ni histoire écrite.
+315,4,todo,1582,peuls,Peuls,exagere,économie,Les Peuls sont riches grâce à leurs troupeaux.
+316,4,todo,334,bretons,Bretons,grain_de_verite,habitudes,Les Bretons boivent beaucoup d'alcool.
+317,4,todo,518,corses,Corses,exagere,comportement,Les Corses sont racistes.
+318,4,todo,829,harkis,Harkis,exagere,économie,Les harkis ont trahi par intérêt financier.
+319,4,todo,222,basques,Basques,exagere,famille,La société basque est matriarcale.
+320,4,todo,68,algerie,Algérie,exagere,mode de vie,"En Algérie, il n'y a que du désert."
+321,4,todo,2056,tunisie,Tunisie,grain_de_verite,politique,La révolution tunisienne a été un échec : le pays est retombé dans la dictature.
+322,4,todo,275,berberes,Berbères (Amazighs),exagere,histoire,Les Berbères sont minoritaires et rares en Afrique du Nord.
+323,4,todo,1044,kabyles,Kabyles,exagere,langue,Les Kabyles refusent de parler arabe.
+324,4,todo,254,belgique,Belgique,grain_de_verite,criminalité,La Belgique est un pays de terroristes et de djihadistes.
+325,4,todo,1902,suisse,Suisse,grain_de_verite,économie,Les banques suisses cachent l'argent des dictateurs et des fraudeurs.
+326,4,todo,407,canada,Canada,exagere,politique,Les Canadiens anglais et les Québécois se détestent.
+327,4,todo,815,haiti,Haïti,exagere,histoire,Les Haïtiens et les Dominicains se détestent.
+328,4,todo,1773,senegal,Sénégal,exagere,histoire,Le Sénégal se résume à l'esclavage : l'île de Gorée est la preuve du départ de millions d'esclaves.
+329,4,todo,556,cote-d-ivoire,Côte d'Ivoire,exagere,alimentation,Les Ivoiriens ne mangent que de l'attiéké et de l'alloco.
+330,4,todo,386,cameroun,Cameroun,grain_de_verite,éducation,Les Camerounais sont très diplômés.
+331,4,todo,1662,rd-congo,République démocratique du Congo,exagere,famille,Les Congolaises n'ont aucun droit.
+332,4,todo,472,congo,Congo,grain_de_verite,économie,Le Congo est un pays pauvre.
+333,4,todo,1217,mali,Mali,exagere,alimentation,Les Maliens ne mangent que du mil et de la bouillie.
+334,4,todo,1182,madagascar,Madagascar,grain_de_verite,religion,Les Malgaches dansent avec les morts.
+335,4,todo,1122,liban,Liban,exagere,alimentation,"La cuisine libanaise, c'est du houmous et du taboulé, rien d'autre."
+336,4,todo,743,gabon,Gabon,grain_de_verite,religion,"Au Gabon, la sorcellerie et les sacrifices humains sont partout."
+337,4,todo,360,burkina-faso,Burkina Faso,grain_de_verite,politique,"Au Burkina, les coups d'État sont une habitude."
+338,4,todo,264,benin,Bénin,grain_de_verite,économie,Le Bénin est un pays de contrebande et de trafics avec le Nigeria.
+339,4,todo,2028,togo,Togo,grain_de_verite,politique,Les Togolais du Nord et du Sud se détestent : c'est une affaire d'ethnies.
+340,4,todo,1358,niger,Niger,grain_de_verite,politique,"Au Niger, les coups d'État se succèdent sans fin."
+341,4,todo,1984,tchad,Tchad,exagere,comportement,Les Tchadiens sont un peuple de guerriers.
+342,4,todo,1270,mauritanie,Mauritanie,grain_de_verite,religion,"La Mauritanie, république islamique, est intolérante envers les non-musulmans et les opinions libres."
+343,4,todo,1728,rwanda,Rwanda,exagere,histoire,Les Rwandais se sont tous réconciliés et ont tout pardonné.
+344,4,todo,1166,luxembourg,Luxembourg,exagere,travail,Les Portugais du Luxembourg travaillent tous dans le bâtiment.
+345,4,todo,625,egypte,Égypte,exagere,politique,Les Égyptiens sont antisémites et haïssent Israël.
+346,4,todo,2126,vietnam,Vietnam,grain_de_verite,religion,Les Vietnamiens sont tous bouddhistes.
+347,4,todo,373,cambodge,Cambodge,grain_de_verite,comportement,Le Cambodge est une destination de tourisme sexuel où la prostitution est partout.
+348,4,todo,191,bambaras,Bambaras,exagere,travail,"Chez les Bambaras, les forgerons sont dangereux et maudits."
+349,4,todo,1583,peuls,Peuls,exagere,religion,Les Peuls ont imposé l'islam par la force.
+350,4,todo,339,bretons,Bretons,grain_de_verite,alimentation,Les Bretons ne mangent que des crêpes et du beurre salé.
+351,4,todo,520,corses,Corses,exagere,comportement,Les Corses sont fiers et se prennent pour Napoléon.
+352,4,todo,831,harkis,Harkis,exagere,histoire,Les harkis ont tous été installés dans des camps.
+353,4,todo,223,basques,Basques,exagere,histoire,Les Basques ont découvert l'Amérique avant Christophe Colomb.
+354,4,todo,69,algerie,Algérie,exagere,alimentation,Les Algériens ne mangent que du couscous.
+355,4,todo,2060,tunisie,Tunisie,grain_de_verite,comportement,"Les Tunisiens sont accueillants et gentils, tout le monde y est souriant."
+356,4,todo,276,berberes,Berbères (Amazighs),exagere,politique,Les Berbères sont des séparatistes qui veulent diviser leur pays.
+357,4,todo,1045,kabyles,Kabyles,exagere,histoire,Les Kabyles n'ont jamais été conquis.
+358,4,todo,256,belgique,Belgique,grain_de_verite,économie,La Belgique est le pays où l'on paie le plus d'impôts.
+359,4,todo,1903,suisse,Suisse,grain_de_verite,criminalité,La Suisse est un pays sans criminalité où l'on ne ferme pas sa porte à clé.
+360,4,todo,403,canada,Canada,grain_de_verite,criminalité,Le Canada est un pays sûr où il n'y a presque pas de criminalité.
+361,4,todo,820,haiti,Haïti,exagere,famille,Les Haïtiennes sont toutes pauvres et victimes de violences.
+362,4,todo,1766,senegal,Sénégal,grain_de_verite,comportement,"Les Sénégalais sont chaleureux : la teranga, c'est leur nature."
+363,4,todo,542,cote-d-ivoire,Côte d'Ivoire,grain_de_verite,économie,Les Ivoiriens sont riches grâce au cacao.
+364,4,todo,387,cameroun,Cameroun,grain_de_verite,religion,Le Cameroun est un pays de sorcellerie.
+365,4,todo,1663,rd-congo,République démocratique du Congo,exagere,politique,Le Congo n'a connu que la dictature.
+366,4,todo,477,congo,Congo,grain_de_verite,alimentation,Les Congolais mangent n'importe quel animal sauvage.
+367,4,todo,1218,mali,Mali,exagere,politique,Le Mali est un pays de coups d'État permanents.
+368,4,todo,1185,madagascar,Madagascar,grain_de_verite,économie,Madagascar vit de la vanille.
+369,4,todo,1127,liban,Liban,exagere,comportement,Les Libanais sont tous des fêtards superficiels.
+370,4,todo,745,gabon,Gabon,grain_de_verite,mode de vie,Le Gabon est un pays presque vide.
+371,4,todo,365,burkina-faso,Burkina Faso,grain_de_verite,travail,"Au Burkina, les enfants travaillent tous dans les mines et les champs."
+372,4,todo,265,benin,Bénin,grain_de_verite,famille,"Au Bénin, des enfants sont vendus : c'est un pays de traite d'enfants."
+373,4,todo,2033,togo,Togo,grain_de_verite,travail,Les enfants togolais travaillent tous dans les champs ou sont vendus.
+374,4,todo,1359,niger,Niger,grain_de_verite,économie,Le Niger ne sert qu'à fournir de l'uranium à la France.
+375,4,todo,1980,tchad,Tchad,grain_de_verite,économie,"Le Tchad est un des pays les plus pauvres du monde, sans rien d'autre que du sable."
+376,4,todo,1272,mauritanie,Mauritanie,grain_de_verite,politique,La Mauritanie est un pays de coups d'État permanents.
+377,4,todo,1729,rwanda,Rwanda,exagere,mode de vie,"Le Rwanda, c'est la jungle et les gorilles."
+378,4,todo,1155,luxembourg,Luxembourg,grain_de_verite,économie,Tous les Luxembourgeois sont riches.
+379,4,todo,627,egypte,Égypte,exagere,comportement,Les Égyptiens ne connaissent pas l'ordre et le temps : tout se fait en retard.
+380,4,todo,2127,vietnam,Vietnam,grain_de_verite,comportement,"Au Vietnam, la circulation à moto est un chaos dangereux."
+381,4,todo,375,cambodge,Cambodge,grain_de_verite,mode de vie,Le Cambodge est truffé de mines et dangereux à parcourir.
+382,4,todo,192,bambaras,Bambaras,exagere,famille,Les femmes bambaras sont soumises et n'ont aucun pouvoir.
+383,4,todo,1584,peuls,Peuls,exagere,histoire,"Les Peuls forment un peuple homogène, présent partout et sans pays."
+384,4,todo,341,bretons,Bretons,grain_de_verite,religion,Les Bretons sont tous des catholiques très pratiquants.
+385,4,todo,521,corses,Corses,exagere,économie,Les Corses ne paient pas d'impôts.
+386,4,todo,833,harkis,Harkis,exagere,politique,Les harkis votent tous à droite ou à l'extrême droite.
+387,4,todo,215,basques,Basques,grain_de_verite,alimentation,Les Basques sont de grands gourmands et excellent en cuisine.
+388,4,todo,60,algerie,Algérie,grain_de_verite,économie,"L'Algérie est riche grâce au pétrole, donc les Algériens vivent bien."
+389,4,todo,2062,tunisie,Tunisie,grain_de_verite,politique,Les Tunisiens sont corrompus.
+390,4,todo,280,berberes,Berbères (Amazighs),exagere,religion,Les Berbères ont été convertis tard à l'islam et sont restés à moitié païens.
+391,4,todo,1046,kabyles,Kabyles,exagere,famille,Les Kabyles ne se marient qu'entre eux.
+392,4,todo,1906,suisse,Suisse,grain_de_verite,mode de vie,"Chaque Suisse a une arme à la maison, donc le pays est dangereux."
+393,4,todo,404,canada,Canada,grain_de_verite,mode de vie,Les Canadiens ont un système de santé gratuit et parfait.
+394,4,todo,811,haiti,Haïti,grain_de_verite,criminalité,"Haïti est dangereux, tout le pays est aux mains de gangs."
+395,4,todo,1767,senegal,Sénégal,grain_de_verite,politique,Le Sénégal est une démocratie exemplaire en Afrique.
+396,4,todo,545,cote-d-ivoire,Côte d'Ivoire,grain_de_verite,économie,Abidjan est le « Manhattan » ou le « Paris » de l'Afrique de l'Ouest.
+397,4,todo,389,cameroun,Cameroun,grain_de_verite,politique,Paul Biya est président à vie.
+398,4,todo,1651,rd-congo,République démocratique du Congo,grain_de_verite,économie,Le Congo est pauvre à cause de la corruption des Congolais.
+399,4,todo,480,congo,Congo,grain_de_verite,politique,"Au Congo, tout le monde est corrompu."
+400,4,todo,1212,mali,Mali,grain_de_verite,famille,"Au Mali, les hommes ont plusieurs épouses."
+401,5,todo,1186,madagascar,Madagascar,grain_de_verite,alimentation,Les Malgaches mangent du riz à tous les repas.
+402,5,todo,1115,liban,Liban,grain_de_verite,économie,"Le Liban, c'est la Suisse du Moyen-Orient."
+403,5,todo,746,gabon,Gabon,grain_de_verite,économie,Libreville est la ville la plus chère d'Afrique.
+404,5,todo,367,burkina-faso,Burkina Faso,grain_de_verite,éducation,Les Burkinabè sont analphabètes et n'aiment pas l'école.
+405,5,todo,1361,niger,Niger,grain_de_verite,famille,Les Nigériennes font trop d'enfants.
+406,5,todo,1985,tchad,Tchad,grain_de_verite,famille,Les femmes tchadiennes n'ont aucun droit et sont toutes mariées enfants.
+407,5,todo,1274,mauritanie,Mauritanie,grain_de_verite,habitudes,Les Mauritaniens boivent toujours trois verres de thé.
+408,5,todo,1723,rwanda,Rwanda,grain_de_verite,politique,Le Rwanda est une dictature.
+409,5,todo,1160,luxembourg,Luxembourg,grain_de_verite,mode de vie,Le Luxembourg est un pays d'étrangers où les Luxembourgeois sont minoritaires.
+410,5,todo,618,egypte,Égypte,grain_de_verite,comportement,Les Égyptiens sont des escrocs qui cherchent à arnaquer les touristes.
+411,5,todo,2128,vietnam,Vietnam,grain_de_verite,politique,Les Vietnamiens vivent sans aucune liberté d'expression.
+412,5,todo,379,cambodge,Cambodge,grain_de_verite,politique,Le Cambodge est un pays où tout le monde est corrompu.
+413,5,todo,194,bambaras,Bambaras,exagere,alimentation,Les Bambaras mangent tous la même chose : de la bouillie de mil.
+414,5,todo,1585,peuls,Peuls,exagere,famille,Les Peuls ne se marient qu'entre eux et se mélangent peu.
+415,5,todo,343,bretons,Bretons,grain_de_verite,économie,"La Bretagne est une région pauvre, d'où partent les domestiques et les ouvriers."
+416,5,todo,522,corses,Corses,exagere,criminalité,Tous les Corses sont armés et violents.
+417,5,todo,825,harkis,Harkis,grain_de_verite,criminalité,Les harkis ont torturé et commis des crimes contre leurs compatriotes.
+418,5,todo,219,basques,Basques,grain_de_verite,économie,Le Pays basque espagnol est riche et ne paie pas d'impôts à l'État.
+419,5,todo,66,algerie,Algérie,grain_de_verite,habitudes,Les Algériens sont tous des fans de football fanatiques.
+420,5,todo,281,berberes,Berbères (Amazighs),exagere,comportement,"Les Berbères sont des guerriers farouches, impossibles à soumettre."
+421,5,todo,1036,kabyles,Kabyles,grain_de_verite,travail,Les Kabyles sont des commerçants et des épiciers.
+422,5,todo,1907,suisse,Suisse,grain_de_verite,comportement,Les Suisses sont xénophobes.
+423,5,todo,408,canada,Canada,grain_de_verite,habitudes,Les Canadiens passent leur temps à dire « eh » et à boire du café Tim Hortons.
+424,5,todo,814,haiti,Haïti,grain_de_verite,histoire,Haïti est la seule république fondée par d'anciens esclaves et elle a été maudite.
+425,5,todo,1772,senegal,Sénégal,grain_de_verite,habitudes,"Les Sénégalais sont de grands sportifs, surtout en football et en lutte."
+426,5,todo,546,cote-d-ivoire,Côte d'Ivoire,grain_de_verite,comportement,Les Ivoiriens sont des fêtards qui passent leur temps à danser.
+427,5,todo,392,cameroun,Cameroun,grain_de_verite,alimentation,Les Africains mangent de la viande de singe et de brousse.
+428,5,todo,1652,rd-congo,République démocratique du Congo,grain_de_verite,mode de vie,Les Congolais sont tous des dandys qui dépensent pour s'habiller.
+429,5,todo,1213,mali,Mali,grain_de_verite,famille,Toutes les femmes maliennes sont excisées.
+430,5,todo,1188,madagascar,Madagascar,grain_de_verite,politique,Les Malgaches sont politiquement instables et enchaînent les coups d'État.
+431,5,todo,1123,liban,Liban,grain_de_verite,mode de vie,Les Libanais sont tous des immigrés partis à l'étranger.
+432,5,todo,1364,niger,Niger,grain_de_verite,histoire,"L'esclavage a disparu en Afrique : au Niger, c'est de l'histoire ancienne."
+433,5,todo,1725,rwanda,Rwanda,grain_de_verite,habitudes,Le Rwanda est le pays le plus propre d'Afrique.
+434,5,todo,1164,luxembourg,Luxembourg,grain_de_verite,économie,"Le Luxembourg, c'est le pays le plus cher d'Europe."
+435,5,todo,619,egypte,Égypte,grain_de_verite,famille,"En Égypte, les femmes n'ont aucun droit et subissent toutes l'excision."
+436,5,todo,2130,vietnam,Vietnam,grain_de_verite,alimentation,"La cuisine vietnamienne, ce sont des nems et du phở."
+437,5,todo,381,cambodge,Cambodge,grain_de_verite,économie,Tous les Cambodgiens américains tiennent une boutique de beignets.
+438,5,todo,195,bambaras,Bambaras,exagere,politique,Les Bambaras et les autres peuples du Mali se détestent.
+439,5,todo,1588,peuls,Peuls,exagere,économie,Les Peuls détruisent l'environnement par le surpâturage.
+440,5,todo,527,corses,Corses,exagere,comportement,Les Corses n'aiment pas les touristes.
+441,5,todo,830,harkis,Harkis,grain_de_verite,éducation,"Les enfants de harkis réussissent mal à l'école, c'est une question de culture."
+442,5,todo,220,basques,Basques,grain_de_verite,habitudes,Le béret est le chapeau traditionnel des Basques.
+443,5,todo,70,algerie,Algérie,grain_de_verite,politique,Les Algériens sont corrompus.
+444,5,todo,278,berberes,Berbères (Amazighs),grain_de_verite,famille,Les femmes berbères sont plus libres que les autres femmes du Maghreb.
+445,5,todo,1042,kabyles,Kabyles,grain_de_verite,famille,Les femmes kabyles sont plus émancipées que les autres Algériennes.
+446,5,todo,1910,suisse,Suisse,grain_de_verite,économie,La Suisse est un pays très cher.
+447,5,todo,819,haiti,Haïti,grain_de_verite,habitudes,Haïti est un pays ravagé par la déforestation parce que les paysans coupent tout.
+448,5,todo,549,cote-d-ivoire,Côte d'Ivoire,grain_de_verite,économie,Un tiers de la population est étrangère et prend le travail des Ivoiriens.
+449,5,todo,394,cameroun,Cameroun,grain_de_verite,économie,"Le Cameroun est un pays riche en ressources, donc prospère."
+450,5,todo,1655,rd-congo,République démocratique du Congo,grain_de_verite,criminalité,Le Congo est la « capitale mondiale du viol ».
+451,5,todo,1219,mali,Mali,grain_de_verite,famille,Les Maliennes font beaucoup trop d'enfants.
+452,5,todo,1189,madagascar,Madagascar,grain_de_verite,habitudes,Les Malgaches détruisent leur forêt par ignorance.
+453,5,todo,1124,liban,Liban,grain_de_verite,politique,Le Liban est un pays sans État où tout fonctionne par la corruption.
+454,5,todo,1727,rwanda,Rwanda,grain_de_verite,politique,"Au Rwanda, ce sont les femmes qui dirigent le pays."
+455,5,todo,620,egypte,Égypte,grain_de_verite,économie,Les Égyptiens sont tous pauvres.
+456,5,todo,2132,vietnam,Vietnam,grain_de_verite,langue,La langue vietnamienne est du chinois ou s'écrit avec des idéogrammes.
+457,5,todo,188,bambaras,Bambaras,grain_de_verite,histoire,Les Bambaras étaient des marchands d'esclaves.
+458,5,todo,1579,peuls,Peuls,grain_de_verite,comportement,"Les Peuls sont froids, réservés et dédaigneux."
+459,5,todo,519,corses,Corses,grain_de_verite,alimentation,Les Corses sont tous bergers et ne mangent que de la charcuterie.
+460,5,todo,834,harkis,Harkis,grain_de_verite,comportement,"Les harkis ne parlent pas de leur histoire, ils n'ont rien à dire."
+461,5,todo,1048,kabyles,Kabyles,grain_de_verite,habitudes,Tous les Kabyles sont chanteurs ou artistes.
+462,5,todo,1911,suisse,Suisse,grain_de_verite,politique,La Suisse n'a pas de président.
+463,5,todo,553,cote-d-ivoire,Côte d'Ivoire,grain_de_verite,travail,Le cacao ivoirien est cultivé par des enfants esclaves.
+464,5,todo,1657,rd-congo,République démocratique du Congo,grain_de_verite,religion,Les Congolais croient à la sorcellerie.
+465,5,todo,1220,mali,Mali,grain_de_verite,éducation,Les Maliens ne se soucient pas de l'école.
+466,5,todo,1190,madagascar,Madagascar,grain_de_verite,comportement,"Les Malgaches obéissent à des tabous absurdes, les fady."
+467,5,todo,1126,liban,Liban,grain_de_verite,politique,Tous les Palestiniens vivent dans des camps au Liban sans aucun droit parce que les Libanais les rejettent.
+468,5,todo,624,egypte,Égypte,grain_de_verite,politique,Le Printemps arabe en Égypte a été un échec complet.
+469,5,todo,2133,vietnam,Vietnam,grain_de_verite,politique,Le Vietnam est un pays corrompu.
+470,5,todo,190,bambaras,Bambaras,grain_de_verite,histoire,Le nom « Bambara » veut dire « ceux qui refusent d'être commandés ».
+471,5,todo,1581,peuls,Peuls,grain_de_verite,habitudes,Les Peuls vénèrent leurs vaches et ne les mangent jamais.
+472,5,todo,526,corses,Corses,grain_de_verite,politique,"En Corse, tout se règle par les clans et le copinage."
+473,5,todo,660,espagne,Espagne,faux,travail,Les Espagnols sont paresseux.
+474,5,todo,1003,italie,Italie,exagere,criminalité,Les Italiens sont tous liés à la mafia.
+475,5,todo,1625,portugal,Portugal,faux,histoire,"Le Portugal, c'est comme l'Espagne."
+476,5,todo,73,allemagne,Allemagne,faux,histoire,Les Allemands ont oublié le nazisme ou refusent d'en parler.
+477,5,todo,1705,royaume-uni,Royaume-Uni,faux,histoire,"Les Anglais et les Britanniques, c'est la même chose."
+478,5,todo,683,etats-unis,États-Unis,exagere,apparence,Les Américains sont tous obèses.
+479,5,todo,439,chine,Chine,faux,économie,Tout ce qui est « made in China » est de mauvaise qualité.
+480,5,todo,888,inde,Inde,faux,religion,Tous les Indiens sont hindous.
+481,5,todo,1018,japon,Japon,faux,alimentation,Les Japonais mangent des sushis tous les jours.
+482,5,todo,321,bresil,Brésil,faux,histoire,Le Brésil est une démocratie raciale où il n'y a pas de racisme.
+483,5,todo,662,espagne,Espagne,faux,langue,"Tous les Espagnols parlent espagnol, c'est un pays uniforme."
+484,5,todo,1626,portugal,Portugal,faux,langue,"Le portugais, c'est de l'espagnol mal prononcé."
+485,5,todo,74,allemagne,Allemagne,faux,comportement,Les Allemands n'ont pas d'humour.
+486,5,todo,1710,royaume-uni,Royaume-Uni,faux,politique,Tous les Britanniques ont voté pour le Brexit.
+487,5,todo,684,etats-unis,États-Unis,exagere,habitudes,Les Américains sont tous armés.
+488,5,todo,440,chine,Chine,faux,langue,Tous les Chinois parlent la même langue.
+489,5,todo,889,inde,Inde,faux,langue,Tous les Indiens parlent hindi.
+490,5,todo,1017,japon,Japon,exagere,travail,Les Japonais sont tous des bourreaux de travail.
+491,5,todo,323,bresil,Brésil,faux,mode de vie,Les Brésiliens habitent tous dans des favelas.
+492,5,todo,668,espagne,Espagne,faux,alimentation,La cuisine espagnole est très épicée.
+493,5,todo,1631,portugal,Portugal,faux,travail,Les Portugais sont lents et paresseux.
+494,5,todo,71,allemagne,Allemagne,exagere,alimentation,Les Allemands ne boivent que de la bière et mangent des saucisses.
+495,5,todo,1714,royaume-uni,Royaume-Uni,faux,histoire,L'Empire britannique a surtout apporté la civilisation à ses colonies.
+496,5,todo,685,etats-unis,États-Unis,grain_de_verite,éducation,Les Américains sont ignorants en géographie et en culture générale.
+497,5,todo,441,chine,Chine,faux,politique,La Chine veut conquérir le monde : c'est le « péril jaune ».
+498,5,todo,887,inde,Inde,exagere,économie,"L'Inde, c'est la pauvreté et les bidonvilles."
+499,5,todo,1020,japon,Japon,exagere,histoire,Les Japonais se suicident par honneur.
+500,5,todo,325,bresil,Brésil,faux,langue,Les Brésiliens parlent espagnol.
