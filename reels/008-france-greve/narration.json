@@ -1,0 +1,65 @@
+{
+  "voice": "fr_FR-siwis-medium",
+  "length_scale": 1.05,
+  "noise_scale": 0.45,
+  "noise_w": 0.55,
+  "sentence_silence": 0.5,
+  "lines": [
+    {
+      "id": "c1",
+      "text": "Les Français, toujours en grève ?"
+    },
+    {
+      "id": "c2",
+      "text": "Pas vraiment. Voici pourquoi on le croit."
+    },
+    {
+      "id": "s2",
+      "text": "Le droit de grève est reconnu depuis mille huit cent soixante-quatre."
+    },
+    {
+      "id": "s3",
+      "text": "Il est inscrit dans la Constitution depuis mille neuf cent quarante-six."
+    },
+    {
+      "id": "s4",
+      "text": "Les grandes grèves de trente-six et de mai soixante-huit ont forgé une image : celle d'une France du conflit."
+    },
+    {
+      "id": "s5",
+      "text": "Mais dans les faits, le nombre de jours de grève change beaucoup d'une année à l'autre. Et il se concentre dans quelques secteurs : les transports et la fonction publique."
+    },
+    {
+      "id": "s7a",
+      "text": "Alors, d'où vient l'impression d'une grève permanente ?"
+    },
+    {
+      "id": "s7b",
+      "text": "De la médiatisation."
+    },
+    {
+      "id": "s8a",
+      "text": "Toujours en grève ? Non."
+    },
+    {
+      "id": "s8b",
+      "text": "Une tradition visible, pas une habitude permanente."
+    },
+    {
+      "id": "outro1",
+      "text": "Les préjugés s'effacent, quand les faits prennent place.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "outro2",
+      "text": "Ensemble, tuons les stéréotypes.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    }
+  ]
+}

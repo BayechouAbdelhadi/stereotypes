@@ -27,3 +27,7 @@ scripts/vm reel-still 002 90 300 600        # check frames
 scripts/vm reel-render 002 --scale=0.5      # fast draft; drop the flag for final
 scripts/vm reel-pull 002
 ```
+
+## Autonomous production
+
+Skill `.claude/skills/video-production-manager/SKILL.md` runs idea -> MP4. Spec: `reels/PROMPT-VIDEO-MANAGER.md`. QA: `scripts/qa-reel.sh <id>` (after `scripts/vm reel-pull <id>`), report in `reels/NNN-slug/qa-report.md`. Note: `reel-push` copies only `*.tsx` files.

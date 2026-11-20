@@ -1,0 +1,61 @@
+{
+  "voice": "fr_FR-siwis-medium",
+  "length_scale": 1.05,
+  "noise_scale": 0.45,
+  "noise_w": 0.55,
+  "sentence_silence": 0.5,
+  "lines": [
+    {
+      "id": "c1",
+      "text": "Napoléon est né dans une Corse déjà française."
+    },
+    {
+      "id": "c2",
+      "text": "Pourtant, on entend encore : la Corse n'est française que depuis lui. Voici ce qu'il en est."
+    },
+    {
+      "id": "s2",
+      "text": "En mille sept cent soixante-huit, par le traité de Versailles, Gênes cède l'île à la France."
+    },
+    {
+      "id": "s3",
+      "text": "Mai mille sept cent soixante-neuf : la bataille de Ponte Novu met fin à la République corse de Pasquale Paoli."
+    },
+    {
+      "id": "s4",
+      "text": "Napoléon naît la même année. L'île est française avant lui, pas grâce à lui."
+    },
+    {
+      "id": "s5",
+      "text": "En mille sept cent quatre-vingt-neuf, des députés corses siègent aux États généraux."
+    },
+    {
+      "id": "s7",
+      "text": "Napoléon n'a donc pas rattaché la Corse à la France."
+    },
+    {
+      "id": "s8a",
+      "text": "Française depuis mille sept cent soixante-huit."
+    },
+    {
+      "id": "s8b",
+      "text": "Avant même la naissance de Napoléon."
+    },
+    {
+      "id": "outro1",
+      "text": "Les préjugés s'effacent, quand les faits prennent place.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "outro2",
+      "text": "Ensemble, tuons les stéréotypes.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    }
+  ]
+}

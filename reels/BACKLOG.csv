@@ -26,7 +26,7 @@ reel,wave,status,stereotype_id,group_slug,group,verdict,category,claim
 025,1,todo,1976,tchad,Tchad,faux,mode de vie,"Le Tchad, c'est seulement du désert."
 026,1,todo,1265,mauritanie,Mauritanie,faux,histoire,Tous les Mauritaniens sont arabes ou maures.
 027,1,todo,1719,rwanda,Rwanda,faux,histoire,Le génocide est né d'une vieille haine tribale entre Hutus et Tutsis.
-028,1,todo,1156,luxembourg,Luxembourg,faux,langue,"Au Luxembourg, on parle français ou allemand, pas de langue luxembourgeoise."
+028,1,rendered,1156,luxembourg,Luxembourg,faux,langue,"Au Luxembourg, on parle français ou allemand, pas de langue luxembourgeoise."
 029,1,todo,622,egypte,Égypte,faux,travail,Les Égyptiens sont fainéants et travaillent peu.
 030,1,todo,2121,vietnam,Vietnam,faux,histoire,"Les Vietnamiens sont des Chinois, ou presque."
 031,1,todo,374,cambodge,Cambodge,faux,travail,Les Cambodgiens sont paresseux et lents.
@@ -70,7 +70,7 @@ reel,wave,status,stereotype_id,group_slug,group,verdict,category,claim
 069,1,todo,186,bambaras,Bambaras,faux,histoire,L'art bambara est de l'artisanat primitif.
 070,1,todo,1576,peuls,Peuls,faux,apparence,Les Peuls sont plus beaux ou plus clairs que les autres Africains.
 071,1,todo,336,bretons,Bretons,faux,mode de vie,"Les Bretons sont des paysans arriérés, comme Bécassine."
-072,1,todo,524,corses,Corses,faux,histoire,La Corse n'est française que depuis Napoléon.
+072,1,rendered,524,corses,Corses,faux,histoire,La Corse n'est française que depuis Napoléon.
 073,1,todo,826,harkis,Harkis,faux,économie,Les harkis ont été récompensés par la France pour leurs services.
 074,1,todo,211,basques,Basques,exagere,criminalité,Les Basques sont tous des terroristes.
 075,1,todo,1248,maroc,Maroc,exagere,famille,Les femmes marocaines sont soumises.
@@ -114,7 +114,7 @@ reel,wave,status,stereotype_id,group_slug,group,verdict,category,claim
 113,2,todo,2054,tunisie,Tunisie,exagere,langue,Tous les Tunisiens parlent français et sont presque des Français.
 114,2,todo,273,berberes,Berbères (Amazighs),faux,langue,Les Berbères n'ont pas d'écriture : leur culture est seulement orale.
 115,2,todo,1035,kabyles,Kabyles,exagere,comportement,Les Kabyles sont têtus et rebelles par nature.
-116,2,todo,736,france,France,exagere,travail,Les Français sont toujours en grève.
+116,2,rendered,736,france,France,exagere,travail,Les Français sont toujours en grève.
 117,2,todo,247,belgique,Belgique,exagere,politique,"La Belgique n'existe pas vraiment, c'est un pays artificiel qui va disparaître."
 118,2,todo,1899,suisse,Suisse,exagere,politique,La Suisse est neutre et n'a jamais fait la guerre.
 119,2,todo,405,canada,Canada,faux,histoire,Les peuples autochtones du Canada sont aujourd'hui intégrés et leur situation est réglée.

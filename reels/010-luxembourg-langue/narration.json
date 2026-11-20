@@ -1,0 +1,53 @@
+{
+  "voice": "fr_FR-siwis-medium",
+  "length_scale": 1.05,
+  "noise_scale": 0.45,
+  "noise_w": 0.55,
+  "sentence_silence": 0.5,
+  "lines": [
+    {
+      "id": "c1",
+      "text": "Au Luxembourg, la langue nationale n'est ni le français, ni l'allemand."
+    },
+    {
+      "id": "c2",
+      "text": "Pourtant, on entend : au Luxembourg, il n'y a pas de langue luxembourgeoise. Voici ce qu'il en est."
+    },
+    {
+      "id": "s2",
+      "text": "Le luxembourgeois est la langue nationale du pays depuis la loi du vingt-quatre février mille neuf cent quatre-vingt-quatre."
+    },
+    {
+      "id": "s3",
+      "text": "C'est une langue germanique, du groupe francique mosellan, avec de nombreux emprunts au français."
+    },
+    {
+      "id": "s4",
+      "text": "Le pays a trois langues administratives : le luxembourgeois, le français et l'allemand. Toutes trois servent au quotidien, à l'école et dans les médias."
+    },
+    {
+      "id": "s8a",
+      "text": "Pas de langue luxembourgeoise ? Si."
+    },
+    {
+      "id": "s8b",
+      "text": "Elle est la langue nationale depuis mille neuf cent quatre-vingt-quatre."
+    },
+    {
+      "id": "outro1",
+      "text": "Les préjugés s'effacent, quand les faits prennent place.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    },
+    {
+      "id": "outro2",
+      "text": "Ensemble, tuons les stéréotypes.",
+      "length_scale": 1.2,
+      "noise_scale": 0.667,
+      "noise_w": 0.9,
+      "sentence_silence": 0.4
+    }
+  ]
+}

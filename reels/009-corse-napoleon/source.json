@@ -1,0 +1,15 @@
+{
+ "dataset": "/home/abdelhadi/Documents/steriotypes/data/steriotypes.db",
+ "stereotype_id": 524,
+ "group": "Corses",
+ "claim": "La Corse n'est française que depuis Napoléon.",
+ "category": "histoire",
+ "verdict": "faux",
+ "rebuttal": "La Corse est devenue française par le traité de Versailles de 1768, avec Gênes, et la conquête militaire de 1769, soit un an avant la naissance de Napoléon (1769). Elle ne l'a donc pas été grâce à lui.",
+ "history": "Gênes cède la gestion de l'île à la France par le traité de Versailles en 1768. La bataille de Ponte Novu en mai 1769 met fin à la République corse de Paoli. La Corse est intégrée au royaume, et des députés corses siègent aux États généraux en 1789.",
+ "sources": [
+  "Jean-Marie Arrighi, Olivier Jehasse, Histoire de la Corse et des Corses, Perrin, 2008.",
+  "Traité de Versailles entre Gênes et la France, 1768."
+ ],
+ "excluded": "Graziani, Pasquale Paoli (2002) : marquée [À VÉRIFIER] dans la base. Non utilisée."
+}

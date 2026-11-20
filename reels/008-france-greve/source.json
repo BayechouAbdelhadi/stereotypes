@@ -1,0 +1,16 @@
+{
+ "dataset": "/home/abdelhadi/Documents/steriotypes/data/steriotypes.db",
+ "stereotype_id": 736,
+ "group": "France",
+ "claim": "Les Français sont toujours en grève.",
+ "category": "travail",
+ "verdict": "exagere",
+ "rebuttal": "La France a une tradition de contestation visible, avec des manifestations très médiatisées. Mais le nombre de jours de grève varie beaucoup d'une année à l'autre et se concentre dans quelques secteurs (transports, fonction publique). D'autres pays européens ont connu des niveaux élevés selon les périodes. La forte médiatisation donne l'impression d'une grève permanente.",
+ "history": "Le droit de grève est reconnu depuis 1864 (fin du délit de coalition) et inscrit dans le préambule de la Constitution de 1946. Les grandes grèves de 1936 et de mai 1968 ont forgé l'image d'une France où le conflit social est une tradition politique.",
+ "sources": [
+  "Stéphane Sirot, La Grève en France : une histoire sociale (XIXe-XXe siècle), Odile Jacob, 2002.",
+  "Loi du 25 mai 1864 (fin du délit de coalition).",
+  "Préambule de la Constitution du 27 octobre 1946."
+ ],
+ "excluded": "ETUI (données comparatives) : marquée [À VÉRIFIER] dans la base. Aucun chiffre comparatif utilisé tant que non vérifié."
+}

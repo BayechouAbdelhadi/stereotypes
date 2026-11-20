@@ -1,0 +1,14 @@
+{
+ "dataset": "/home/abdelhadi/Documents/steriotypes/data/steriotypes.db",
+ "stereotype_id": 1156,
+ "group": "Luxembourg",
+ "claim": "Au Luxembourg, on parle français ou allemand, pas de langue luxembourgeoise.",
+ "category": "langue",
+ "verdict": "faux",
+ "rebuttal": "Le luxembourgeois (Lëtzebuergesch) est la langue nationale du pays depuis la loi du 24 février 1984. C'est une langue germanique du groupe francique mosellan, avec de nombreux emprunts au français. Le pays a trois langues administratives, le luxembourgeois, le français et l'allemand. Les trois sont utilisées au quotidien, à l'école et dans les médias, selon les contextes.",
+ "history": "Le luxembourgeois a longtemps été une langue orale, utilisée à côté de l'allemand écrit et du français administratif. Il prend de l'importance après l'occupation allemande de 1940-1944. Une orthographe officielle est fixée en 1946 et réformée en 1975, et la loi de 1984 lui donne son statut actuel.",
+ "sources": [
+  "Loi du 24 février 1984 sur le régime des langues (Luxembourg)."
+ ],
+ "excluded": "Fehlen, Sprooch a Politik : marquée [À VÉRIFIER] dans la base. Non utilisée."
+}
